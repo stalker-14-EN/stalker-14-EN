@@ -17,21 +17,21 @@
     armorClass: 2
     modifiers:
       flatReductions:
-        Blunt: 3
-        Slash: 3
-        Piercing: 6
-        Radiation: 1.5
+        Blunt: 4
+        Slash: 7
+        Piercing: 2
+        Radiation: 1
       coefficients:
-        Blunt: 0.8
-        Slash: 0.8
-        Piercing: 0.5
-        Heat: 0.65
-        Caustic: 0.95
-        Shock: 0.65
-        Psy: 0.8
-        Compression: 0.8
+        Blunt: 0.7
+        Slash: 0.65
+        Compression: 0.80
+        Piercing: 0.8
+        Heat: 0.80
+        Caustic: 0.9
+        Shock: 0.80
+
   - type: GrantsArtifactSlots
-    slots: 2 # EN
+    slots: 3 # EN
   - type: ExplosionResistance
     damageCoefficient: 0.90
   # bonus

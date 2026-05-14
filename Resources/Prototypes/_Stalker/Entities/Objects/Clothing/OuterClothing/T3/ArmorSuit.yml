@@ -505,21 +505,16 @@
     modifiers:
       flatReductions:
         Blunt: 3
-        Slash: 4
-        Piercing: 4
-        Radiation: 2
-        Heat: 1
-        Caustic: 1
-        Shock: 1
+        Slash: 3
+        Piercing: 6
+        Radiation: 1
       coefficients:
-        Blunt: 0.60
-        Slash: 0.55
-        Piercing: 0.85
-        Compression: 0.7
-        Radiation: 0.75
-        Heat: 0.75
-        Caustic: 0.70
-        Shock: 0.75
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.50
+        Heat: 0.90
+        Caustic: 0.95
+        Shock: 0.90
 
 - type: entity
   parent: STClothingOuterArmorBase
