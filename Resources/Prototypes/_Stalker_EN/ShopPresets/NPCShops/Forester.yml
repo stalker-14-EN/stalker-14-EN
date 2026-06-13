@@ -582,7 +582,7 @@
   - name: shop-category-research-equipment
     priority: 9
     items:
-      BoxArtcont1: 20
+      BoxArtcont1: 40
       BoxArtcont: 5
       STBoltBagOliveGrayFilledGolden: 300
       TrashDetectorTier4: 80
