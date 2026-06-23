@@ -357,16 +357,17 @@
   name: Сосна
   components:
   - type: Sprite
-    state: pine01
+    sprite: _Stalker/Objects/Decoration/Flora/pine.rsi
+    state: pine
 
 - type: entity
-  parent: STBaseTreeT1RSItreenew
+  parent: PineTreeNew01
   id: PineTreeNew02
   suffix: ST, Mapping
   name: Сосна
   components:
   - type: Sprite
-    state: pine02
+    state: pine-orange
 
 - type: entity
   parent: STBaseTreeT1RSItreenew
@@ -436,27 +437,28 @@
   description: One of the most recognizable trees of the deciduous genus, the tree is characterized by white bark with black patches, as well as small, pointed leaves.
   components:
   - type: Sprite
-    state: birch01
+    sprite: _Stalker/Objects/Decoration/Flora/birch.rsi
+    state: birch
 
 - type: entity
-  parent: STBaseTreeT2RSItreenew
+  parent: BirchTreeNew01
   id: BirchTreeNew02
   suffix: ST, Mapping
   name: birch
   description: One of the most recognizable trees of the deciduous genus, the tree is characterized by white bark with black patches, as well as small, pointed leaves.
   components:
   - type: Sprite
-    state: birch02
+    state: birch-orange
 
 - type: entity
-  parent: STBaseTreeT2RSItreenew
+  parent: BirchTreeNew01
   id: BirchTreeNew03
   suffix: ST, Mapping
   name: birch
   description: One of the most recognizable trees of the deciduous genus, the tree is characterized by white bark with black patches, as well as small, pointed leaves.
   components:
   - type: Sprite
-    state: birch03
+    state: birch-bald
 
 - type: entity
   parent: STBaseTreeT2RSItreenew
@@ -536,16 +538,17 @@
   name: Ель
   components:
   - type: Sprite
-    state: spruce01
+    sprite: _Stalker/Objects/Decoration/Flora/spruce.rsi
+    state: spruce
 
 - type: entity
-  parent: STBaseTreeT2RSItreenew
+  parent: SpruceTreeNew01
   id: SpruceTreeNew02
   suffix: ST, Mapping
   name: Ель
   components:
   - type: Sprite
-    state: spruce02
+    state: spruce-orange
 
 - type: entity
   parent: STBaseTreeT2RSItreenew
@@ -574,16 +577,26 @@
   name: Сосна
   components:
   - type: Sprite
-    state: oak01
+    sprite: _Stalker/Objects/Decoration/Flora/oak.rsi
+    state: oak
 
 - type: entity
-  parent: STBaseTreeT2RSItreenew
+  parent: OakTreeNew01
   id: OakTreeNew02
   suffix: ST, Mapping
   name: Сосна
   components:
   - type: Sprite
-    state: oak02
+    state: oak-bald
+    
+- type: entity
+  parent: OakTreeNew01
+  id: OakTreeNew03
+  suffix: ST, Mapping
+  name: Сосна
+  components:
+  - type: Sprite
+    state: oak-orange
 
 # Poplar
 
@@ -683,7 +696,6 @@
   - type: Sprite
     state: treelarge02
 
-
 - type: entity
   parent: STBaseTreeT3RSIredlarge
   id: FloraTreeLargeRed03
@@ -760,8 +772,8 @@
         layer:
         - MidImpassable
   - type: SpeedModifierContacts
-    walkSpeedModifier: 0.8
-    sprintSpeedModifier: 0.5
+    walkSpeedModifier: 0.85
+    sprintSpeedModifier: 0.85
   - type: Sprite
     sprite: _Stalker/Objects/Decoration/Flora/flora.rsi
     state: bush01
@@ -849,6 +861,28 @@
   - type: Sprite
     sprite: _Stalker/Objects/Decoration/Flora/flora.rsi
     state: bush06
+
+- type: entity
+  parent: Bush01
+  id: Bush07
+  suffix: ST, Mapping
+  name: большой куст
+  description: Древовидное растение, разветвляющееся от самого основания.
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Flora/radar_bush.rsi
+    state: largebush01
+
+- type: entity
+  parent: Bush01
+  id: Bush08
+  suffix: ST, Mapping
+  name: большой куст
+  description: Древовидное растение, разветвляющееся от самого основания.
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Flora/radar_bush.rsi
+    state: largebush02
 
 # КУВШИНКИ
 
@@ -963,7 +997,7 @@
   parent: Bush01
   id: Bigbush1
   suffix: ST, Mapping
-  name: куст
+  name: Bush # EN change
   description: Древовидное растение, разветвляющееся от самого основания.
   components:
   - type: Sprite
@@ -986,7 +1020,7 @@
   parent: Bush01
   id: Bigbush2
   suffix: ST, Mapping
-  name: куст
+  name: Bush # EN change
   description: Древовидное растение, разветвляющееся от самого основания.
   components:
   - type: Sprite
@@ -1010,7 +1044,7 @@
   parent: Bush01
   id: Bigbush3
   suffix: ST, Mapping
-  name: куст
+  name: Bush # EN change
   description: Древовидное растение, разветвляющееся от самого основания.
   components:
   - type: Sprite
@@ -1028,3 +1062,171 @@
           bounds: "-0.4,-0.4,0.4,0.4"
         layer:
         - MidImpassable
+
+# Мёртвые деревья
+
+- type: entity
+  parent: FloraTreeLargeRed01
+  id: FloraTreeDry
+  name: Dead Tree # EN change
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Flora/radar_tree.rsi
+    state: dry01
+
+- type: entity
+  parent: FloraTreeDry
+  id: FloraTreeDry2
+  name: Dead Tree # EN change
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    state: dry02
+
+- type: entity
+  parent: FloraTreeDry
+  id: FloraTreeDry3
+  name: Dead Tree # EN change
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    state: dry03
+
+- type: entity
+  parent: FloraTreeLargeRed01
+  id: FloraTreeDryLarge
+  name: Dead Tree # EN change
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Flora/radar_tree_large.rsi
+    state: drylarge01
+
+- type: entity
+  parent: FloraTreeDryLarge
+  id: FloraTreeDryLarge2
+  name: Dead Tree # EN change
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    state: drylarge02
+
+- type: entity
+  parent: FloraTreeDryLarge
+  id: FloraTreeDryLarge3
+  name: Dead Tree # EN change
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    state: drylarge03
+
+- type: entity
+  parent: FloraTreeLargeRed01
+  id: FloraTreeRadarLarge1
+  name: Dead Tree # EN change
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Flora/radar_tree_large.rsi
+    state: reddarkpink
+  - type: Craftable
+
+- type: entity
+  parent: FloraTreeLargeRed01
+  id: FloraTreeRadarLarge2
+  name: Dead Tree # EN change
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Flora/radar_tree_large.rsi
+    state: redpink
+  - type: Craftable
+
+- type: entity
+  parent: FloraTreeLargeRed01
+  id: STFloraTreeRadarSmall1
+  name: Dead Tree # EN change
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Flora/radar_tree.rsi
+    state: darkpink
+  - type: Craftable
+
+- type: entity
+  parent: FloraTreeLargeRed01
+  id: STFloraTreeRadarSmall2
+  name: Dead Tree # EN change
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Flora/radar_tree.rsi
+    state: darkpink1
+  - type: Craftable
+
+- type: entity
+  parent: FloraTreeLargeRed01
+  id: STFloraTreeRadarSmall3
+  name: Dead Tree # EN change
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Flora/radar_tree.rsi
+    state: reddarkpink
+  - type: Craftable
+
+- type: entity
+  parent: FloraTreeLargeRed01
+  id: STFloraTreeRadarSmall4
+  name: Dead Tree # EN change
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Flora/radar_tree.rsi
+    state: redpink
+  - type: Craftable
+
+- type: entity
+  parent: FloraTreeLargeRed01
+  id: STFloraTreeRadarSmall5
+  name: Dead Tree # EN change
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Flora/radar_tree.rsi
+    state: redpink1
+  - type: Craftable
+
+- type: entity
+  parent: STBaseTreeT4RSIwillow
+  id: FloraTreeWillowTree1
+  name: Willow Tree # EN change
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Flora/willow_tree.rsi
+    state: red
+  - type: Craftable
+
+- type: entity
+  parent: STBaseTreeT4RSIwillow
+  id: FloraTreeWillowTree2
+  name: Willow Tree # EN change
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Flora/willow_tree.rsi
+    state: green
+  - type: Craftable
+
+- type: entity
+  parent: STBaseTreeT4RSIwillow
+  id: FloraTreeWillowTree3
+  name: Willow Tree # EN change
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Flora/willow_tree.rsi
+    state: darkgreen
+  - type: Craftable

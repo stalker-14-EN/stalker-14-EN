@@ -12,8 +12,9 @@
     MonolithCrateMedkit: 10
     STWeaponRifleAKM: 10
     STWeaponRifleAKS74WinterMono: 10
-    STWeaponRifleAKS74UWhiteMono: 10
-    STWeaponRifleLR300v1: 10
+    #STWeaponRifleAKS74UWhiteMono: 10
+    #STWeaponRifleLR300v1: 10
+    STWeaponRifleOC14WinterMono: 10
     MonolithCrate545Mag30: 10
     MonolithCrate545PC: 10
     MonolithCrate556Mag30: 10
@@ -122,7 +123,7 @@
       STWeaponRifleStalkerAK12Mono: 20
       STWeaponSMGStalkerCP2Veresk: 8
       STWeaponRifleAK103Mono: 24 # higher because its technically a faction weapon
-      STWeaponRifleStalkerAbakan: 32
+      STWeaponRifleStalkerAbakanWinterMono: 32
       STWeaponShotgunProtecta: 10
       STSharpenedKnife: 1
       STKnifeShard: 85 # munny sink
@@ -140,6 +141,7 @@
     items:
       ClothingOuterArmorSevaMonolithPriest: 15
       ClothingHeadHelmetBerill5MMonolith: 8
+      ClothingHeadHelmetBulatMonolith: 10
       ClothingOuterArmorBerill5MMonolith: 30
 
   - name: shop-category-grenades
@@ -159,6 +161,7 @@
     items:
       ClothingHeadBeretMonolith: 1
       ClothingOuterJacketMonolith: 1
+      ClothingNeckMantleMono: 3
 
   - name: shop-category-utilities
     priority: 7

@@ -29,3 +29,17 @@
     layers:
       - state: bonfire
       - state: fire
+
+- type: entity
+  id: StalkerBonFire1
+  parent: STBonfire
+  name: костёр
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/bonfire_gray.rsi
+    layers:
+      - state: bonfire
+  - type: Icon
+    sprite: _Stalker/Objects/Decoration/bonfire_gray.rsi
+    state: icon

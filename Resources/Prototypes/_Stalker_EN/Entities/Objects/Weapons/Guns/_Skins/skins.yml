@@ -57,6 +57,22 @@
       types:
         Radiation: 6.65
 
+# glock
+- type: entity
+  name: Glock-17
+  description: A normal glock that someone's painted pink. Fashionable.
+  parent: WeaponPistolStalkerGlock
+  id: WeaponPistolStalkerGlockPink
+  suffix: ST, Reward
+  components:
+  - type: Clothing
+    sprite: _Stalker_EN/Objects/Weapons/Guns/_Skins/pink_glock.rsi
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Weapons/Guns/_Skins/pink_glock.rsi
+    scale: 0.8, 0.8
+  - type: Item
+    sprite: _Stalker_EN/Objects/Weapons/Guns/_Skins/pink_glock.rsi
+
 # SHOTGUNS
 # spas
 - type: entity

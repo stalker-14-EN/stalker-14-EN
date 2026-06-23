@@ -18,3 +18,24 @@
   - type: Craftable
   - type: RepositoryItem
     categoryName: repository-tools-category
+
+- type: entity
+  parent: BaseItem
+  id: STIrradiationkit
+  name: Irradiating kit
+  description: Powdered radioactive material safely stored inside a canister that can be used to irradiate objects.
+  suffix: Stalker, Craft
+  components:
+  - type: STWeight
+    self: 2.5
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,2,2
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Tools/Irradiationkit.rsi
+    state: Irradiationkit1
+    scale: 0.9,0.9
+  - type: Craftable
+  - type: RepositoryItem
+    categoryName: repository-tools-category

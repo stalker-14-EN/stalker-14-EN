@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "copyright": "Stalker14 CLA",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon_straight"
+    },
+    {
+      "name": "corner",
+      "directions": 4
+    },
+    {
+      "name": "end",
+      "directions": 4
+    },
+    {
+      "name": "icon_end"
+    },
+    {
+      "name": "brokenbrickfence1"
+    },
+    {
+      "name": "brokenbrickfence2"
+    },
+    {
+      "name": "brokenbrickfence3"
+    },
+    {
+      "name": "brokenbrickfence4"
+    },
+    {
+      "name": "straight",
+      "directions": 4
+    }
+  ]
+}

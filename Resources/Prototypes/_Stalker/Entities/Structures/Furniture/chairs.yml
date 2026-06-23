@@ -182,3 +182,75 @@
   components:
   - type: Sprite
     state: office-dark
+
+
+
+- type: entity
+  name: comfy chair
+  id: STComfyChairBlue
+  parent: STChairBase
+  suffix: ST, Mapping
+  description: It looks comfy.
+  components:
+  - type: Sprite
+    state: comfy-blue
+
+- type: entity
+  name: comfy chair
+  id: STComfyChairDullOrange
+  parent: STChairBase
+  suffix: ST, Mapping
+  description: It looks comfy.
+  components:
+  - type: Sprite
+    state: comfy-dull-orange
+
+- type: entity
+  name: comfy chair
+  id: STComfyChairForestGreen
+  parent: STChairBase
+  suffix: ST, Mapping
+  description: It looks comfy.
+  components:
+  - type: Sprite
+    state: comfy-forest-green
+
+- type: entity
+  name: comfy chair
+  id: STComfyChairLimeGreen
+  parent: STChairBase
+  suffix: ST, Mapping
+  description: It looks comfy.
+  components:
+  - type: Sprite
+    state: comfy-lime-green
+
+- type: entity
+  name: comfy chair
+  id: STComfyChairOrange
+  parent: STChairBase
+  suffix: ST, Mapping
+  description: It looks comfy.
+  components:
+  - type: Sprite
+    state: comfy-orange
+
+- type: entity
+  name: comfy chair
+  id: STComfyChairRed
+  parent: STChairBase
+  suffix: ST, Mapping
+  description: It looks comfy.
+  components:
+  - type: Sprite
+    state: comfy-red
+
+- type: entity
+  name: comfy chair
+  id: STComfyChairYellow
+  parent: STChairBase
+  suffix: ST, Mapping
+  description: It looks comfy.
+  components:
+  - type: Sprite
+    state: comfy-yellow

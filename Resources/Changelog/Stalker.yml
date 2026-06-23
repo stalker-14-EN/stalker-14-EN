@@ -3275,5 +3275,73 @@
   id: 367
   time: '2026-06-13T01:19:04.659642+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/977
+- author: dallaszzz
+  changes:
+  - message: renames all maps to use english names and standardizes them
+    type: Tweak
+  - message: some yantar map changes
+    type: Tweak
+  - message: fixes local teleporters not working as intended
+    type: Fix
+  id: 368
+  time: '2026-06-15T01:52:25.843408+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/980
+- author: dallaszzz
+  changes:
+  - message: Ports tons of mapping entitys from ru
+    type: Add
+  - message: Ports new cbrn suit sprites from ru
+    type: Add
+  - message: Ports new lobby screens from ru
+    type: Add
+  id: 369
+  time: '2026-06-15T02:09:13.123993+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/981
+- author: crocodilecarousel
+  changes:
+  - message: Warzone 'Cordon Pig Farm'
+    type: Add
+  - message: Igor Warzone point shop
+    type: Add
+  id: 370
+  time: '2026-06-17T16:28:58.690719+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/982
+- author: SnekiChaos
+  changes:
+  - message: Minor Yantar Eco Bunker fixes
+    type: Add
+  id: 371
+  time: '2026-06-20T11:02:24.764839+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/987
+- author: crocodilecarousel
+  changes:
+  - message: New glock skin, sprites by qwertymen41
+    type: Add
+  id: 372
+  time: '2026-06-22T00:55:28.706297+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/988
+- author: TheCookieChicken
+  changes:
+  - message: Fixed the copyright in the meta.json
+    type: Fix
+  id: 373
+  time: '2026-06-22T00:58:48.640472+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/990
+- author: TheCookieChicken
+  changes:
+  - message: Winterized Equipment can be Irradiated
+    type: Add
+  - message: Winterized AN-91 and Groza can be cleansed/Irradiated
+    type: Tweak
+  id: 374
+  time: '2026-06-22T16:01:27.913913+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/989
+- author: Nox38
+  changes:
+  - message: Renamed and removed armor from kevlar raincoat variants.
+    type: Tweak
+  id: 375
+  time: '2026-06-23T17:27:51.296256+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/979
 Name: Stalker
 Order: -1

@@ -38,6 +38,34 @@
     {
       "name": "wooden-wings-knocked",
       "directions": 4
+    },
+    {
+      "name": "comfy-blue",
+      "directions": 4
+    },
+    {
+      "name": "comfy-dull-orange",
+      "directions": 4
+    },
+    {
+      "name": "comfy-forest-green",
+      "directions": 4
+    },
+    {
+      "name": "comfy-lime-green",
+      "directions": 4
+    },
+    {
+      "name": "comfy-orange",
+      "directions": 4
+    },
+    {
+      "name": "comfy-red",
+      "directions": 4
+    },
+    {
+      "name": "comfy-yellow",
+      "directions": 4
     }
   ]
 }

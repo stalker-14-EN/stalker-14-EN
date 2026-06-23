@@ -273,7 +273,7 @@
     - !type:PreventInGreenzoneRule
     - !type:IsOnSpecificMapRule
       maps:
-        - "болота"
+        - "Swamps"
 
 - type: rules
   id: AmbianceSwampNight
@@ -283,7 +283,7 @@
     - !type:PreventInGreenzoneRule
     - !type:IsOnSpecificMapRule
       maps:
-        - "Топь"
+        - "Swamps"
 
 # Garbage
 - type: rules
@@ -293,7 +293,7 @@
     - !type:PreventInGreenzoneRule
     - !type:IsOnSpecificMapRule
       maps:
-        - "Svalka"
+        - "Garbage"
 
 - type: rules
   id: AmbianceGarbageNight
@@ -303,7 +303,7 @@
     - !type:PreventInGreenzoneRule
     - !type:IsOnSpecificMapRule
       maps:
-        - "Svalka"
+        - "Garbage"
 
 # Dark Valley
 - type: rules
@@ -313,8 +313,8 @@
     - !type:PreventInGreenzoneRule
     - !type:IsOnSpecificMapRule
       maps:
-        - "Темная Долина new"
-        - "лощина"
+        - "Dark Valley"
+        - "Dark Hollow"
 
 - type: rules
   id: AmbianceDarkValleyNight
@@ -324,8 +324,8 @@
     - !type:PreventInGreenzoneRule
     - !type:IsOnSpecificMapRule
       maps:
-        - "Темная Долина new"
-        - "лощина"
+        - "Dark Valley"
+        - "Dark Hollow"
 
 # Agroprom
 - type: rules
@@ -335,7 +335,7 @@
     - !type:PreventInGreenzoneRule
     - !type:IsOnSpecificMapRule
       maps:
-        - "Агропром"
+        - "Agroprom"
 
 - type: rules
   id: AmbianceAgropromNight
@@ -345,7 +345,7 @@
     - !type:PreventInGreenzoneRule
     - !type:IsOnSpecificMapRule
       maps:
-        - "Агропром"
+        - "Agroprom"
 
 # BarWilds
 - type: rules
@@ -355,7 +355,7 @@
     - !type:PreventInGreenzoneRule
     - !type:IsOnSpecificMapRule
       maps:
-        - "Росток и дикая территория"
+        - "Rostok and Wilds"
 
 - type: rules
   id: AmbianceBarWildsNight
@@ -365,7 +365,7 @@
     - !type:PreventInGreenzoneRule
     - !type:IsOnSpecificMapRule
       maps:
-        - "Росток и дикая территория"
+        - "Rostok and Wilds"
 
 # RedForest
 - type: rules
@@ -375,8 +375,8 @@
     - !type:PreventInGreenzoneRule
     - !type:IsOnSpecificMapRule
       maps:
-        - "Рыжий лес"
-        - "JupiterPlant"
+        - "Red Forest"
+        - "Jupiter Plant"
 
 - type: rules
   id: AmbianceRedForestNight
@@ -386,8 +386,8 @@
     - !type:PreventInGreenzoneRule
     - !type:IsOnSpecificMapRule
       maps:
-        - "Рыжий лес"
-        - "JupiterPlant"
+        - "Red Forest"
+        - "Jupiter Plant"
 
 # Limansk
 - type: rules
@@ -397,7 +397,7 @@
     - !type:PreventInGreenzoneRule
     - !type:IsOnSpecificMapRule
       maps:
-        - "Лиманск"
+        - "Limansk"
 
 - type: rules
   id: AmbianceLimanskNight
@@ -407,7 +407,7 @@
     - !type:PreventInGreenzoneRule
     - !type:IsOnSpecificMapRule
       maps:
-        - "Лиманск"
+        - "Limansk"
 
 # Yantar
 - type: rules
@@ -436,4 +436,4 @@
     - !type:PreventInGreenzoneRule
     - !type:IsOnSpecificMapRule
       maps:
-        - "Yantar Labs"
+        - "Miracle Machine"

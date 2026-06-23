@@ -1,0 +1,367 @@
+- type: entity
+  id: TrubaSoloStalker
+  parent: BaseStructure
+  name: Concrete pipe # EN change
+  suffix: ST, Mapping
+  description: An old reinforced concrete pipe. # EN change
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Other/truba(32x48).rsi
+    state: truba1
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.3,-0.4,0.3,0.4"
+        density: 155
+        mask:
+        - MachineMask
+        layer:
+        - WallLayer
+
+- type: entity
+  id: TrubaSolo2Stalker
+  parent: BaseStructure
+  name: Concrete pipe # EN change
+  suffix: ST, Mapping
+  description: An old reinforced concrete pipe. # EN change
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Other/truba(48x32).rsi
+    state: truba2
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.3,-0.4,0.3,0.4"
+        density: 155
+        mask:
+        - MachineMask
+        layer:
+        - WallLayer
+
+- type: entity
+  id: PlitaSoloStalker
+  parent: BaseStructure
+  name: Concrete Slab # EN change
+  suffix: ST, Mapping
+  description: Old reinforced concrete slabs. # EN change
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Other/plita.rsi
+    state: plita
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.3,-0.4,0.3,0.4"
+        density: 155
+        mask:
+        - MachineMask
+        layer:
+        - WallLayer
+
+- type: entity
+  id: Plita2SoloStalker
+  parent: BaseStructure
+  name: Concrete Slab # EN change
+  suffix: ST, Mapping
+  description: Old reinforced concrete slabs. # EN change
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Other/plita.rsi
+    state: plitaL4
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.3,-0.4,0.3,0.4"
+        density: 155
+        mask:
+        - MachineMask
+        layer:
+        - WallLayer
+
+- type: entity
+  id: Plita3SoloStalker
+  parent: BaseStructure
+  name: Concrete Slab # EN change
+  suffix: ST, Mapping
+  description: Old reinforced concrete slabs. # EN change
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Other/plita.rsi
+    state: plitaR4
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.3,-0.4,0.3,0.4"
+        density: 155
+        mask:
+        - MachineMask
+        layer:
+        - WallLayer
+
+- type: entity
+  id: PlitkiStalker
+  parent: BaseStructure
+  name: Concrete Slab # EN change
+  suffix: ST, Mapping
+  description: Old reinforced concrete slabs. # EN change
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Other/plita.rsi
+    state: plitaL5
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.3,-0.4,0.3,0.4"
+        density: 155
+        mask:
+        - MachineMask
+        layer:
+        - WallLayer
+
+- type: entity
+  id: Plitki1Stalker
+  parent: BaseStructure
+  name: Concrete Slab # EN change
+  suffix: ST, Mapping
+  description: Old reinforced concrete slabs. # EN change
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Other/plita.rsi
+    state: plitaL6
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.3,-0.4,0.3,0.4"
+        density: 155
+        mask:
+        - MachineMask
+        layer:
+        - WallLayer
+
+- type: entity
+  id: Plitki2Stalker
+  parent: BaseStructure
+  name: Concrete Slab # EN change
+  suffix: ST, Mapping
+  description: Old reinforced concrete slabs. # EN change
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Other/plita.rsi
+    state: plitaR5
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.3,-0.4,0.3,0.4"
+        density: 155
+        mask:
+        - MachineMask
+        layer:
+        - WallLayer
+
+- type: entity
+  id: Plitki3Stalker
+  parent: BaseStructure
+  name: Concrete Slab # EN change
+  suffix: ST, Mapping
+  description: Old reinforced concrete slabs. # EN change
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Other/plita.rsi
+    state: plitaR6
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.3,-0.4,0.3,0.4"
+        density: 155
+        mask:
+        - MachineMask
+        layer:
+        - WallLayer
+
+- type: entity
+  id: Plitki4Stalker
+  parent: BaseStructure
+  name: Concrete Slab # EN change
+  suffix: ST, Mapping
+  description: Old reinforced concrete slabs. # EN change
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Other/plita(64x32).rsi
+    state: plitaL1
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.3,-0.4,0.3,0.4"
+        density: 155
+        mask:
+        - MachineMask
+        layer:
+        - WallLayer
+
+- type: entity
+  id: Plitki5Stalker
+  parent: BaseStructure
+  name: Concrete Slab # EN change
+  suffix: ST, Mapping
+  description: Old reinforced concrete slabs. # EN change
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Other/plita(64x32).rsi
+    state: plitaL2
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.3,-0.4,0.3,0.4"
+        density: 155
+        mask:
+        - MachineMask
+        layer:
+        - WallLayer
+
+- type: entity
+  id: Plitki6Stalker
+  parent: BaseStructure
+  name: Concrete Slab # EN change
+  suffix: ST, Mapping
+  description: Old reinforced concrete slabs. # EN change
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Other/plita(64x32).rsi
+    state: plitaL3
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.3,-0.4,0.3,0.4"
+        density: 155
+        mask:
+        - MachineMask
+        layer:
+        - WallLayer
+
+- type: entity
+  id: Plitki7Stalker
+  parent: BaseStructure
+  name: Concrete Slab # EN change
+  suffix: ST, Mapping
+  description: Old reinforced concrete slabs. # EN change
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Other/plita(64x32).rsi
+    state: plitaR1
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.3,-0.4,0.3,0.4"
+        density: 155
+        mask:
+        - MachineMask
+        layer:
+        - WallLayer
+
+- type: entity
+  id: Plitki8Stalker
+  parent: BaseStructure
+  name: Concrete Slab # EN change
+  suffix: ST, Mapping
+  description: Old reinforced concrete slabs. # EN change
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Other/plita(64x32).rsi
+    state: plitaR2
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.3,-0.4,0.3,0.4"
+        density: 155
+        mask:
+        - MachineMask
+        layer:
+        - WallLayer
+
+- type: entity
+  id: Plitki9Stalker
+  parent: BaseStructure
+  name: Concrete Slab # EN change
+  suffix: ST, Mapping
+  description: Old reinforced concrete slabs. # EN change
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Other/plita(64x32).rsi
+    state: plitaR3
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.3,-0.4,0.3,0.4"
+        density: 155
+        mask:
+        - MachineMask
+        layer:
+        - WallLayer
+
+- type: entity
+  id: HeadPikaStalker
+  parent: BaseStructure
+  name: Heads on Pikes # EN change
+  suffix: ST, Mapping
+  description: A group of pikes with the heads of the unfortunates strung on them. # EN change
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/Other/head_pika.rsi
+    state: head5
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.3,-0.4,0.3,0.4"
+        density: 155
+        mask:
+        - MachineMask
+        layer:
+        - WallLayer

@@ -329,6 +329,7 @@
         Spoon: 75
         HerculesBottleFull: 200
         DrinkGlass: 100
+        DrinkShotGlass: 100
 
     - name: shop-category-drinks
       priority: 6
@@ -476,9 +477,9 @@
         Matchbox: 10
         STHeadLight: 350
         HatchetStalker: 150
-        STElasticRubberRed: 50
-        STElasticRubberGreen: 50
-        STElasticRubberBlue: 50
+        STElasticRubberRed: 5
+        STElasticRubberGreen: 5
+        STElasticRubberBlue: 5
         AAAAStalkerLopata: 2000
         BookCookingStalkerGuide: 200
         BookCookingStalkerHomemade: 600

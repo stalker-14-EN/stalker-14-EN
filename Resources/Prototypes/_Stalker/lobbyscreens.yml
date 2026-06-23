@@ -1,4 +1,4 @@
-﻿- type: lobbyBackground
+- type: lobbyBackground
   id: zag1
   background: /Textures/_Stalker/LobbyScreens/zag1.png
 
@@ -29,3 +29,23 @@
 - type: lobbyBackground
   id: zag8
   background: /Textures/_Stalker/LobbyScreens/zag8.png
+
+- type: lobbyBackground
+  id: zag9
+  background: /Textures/_Stalker/LobbyScreens/zag9.png
+
+- type: lobbyBackground
+  id: zag10
+  background: /Textures/_Stalker/LobbyScreens/zag10.png
+
+- type: lobbyBackground
+  id: zag11
+  background: /Textures/_Stalker/LobbyScreens/zag11.png
+
+- type: lobbyBackground
+  id: zag12
+  background: /Textures/_Stalker/LobbyScreens/zag12.png
+
+- type: lobbyBackground
+  id: zag13
+  background: /Textures/_Stalker/LobbyScreens/zag13.png

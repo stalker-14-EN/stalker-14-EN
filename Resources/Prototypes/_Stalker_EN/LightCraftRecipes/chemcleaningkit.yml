@@ -170,3 +170,21 @@
     firstIngredient: CraftChemicalCleaningKit
     secondIngredient: ClothingHeadHelmetBerill5MMonolith
     time: 15
+
+- type: lightCraftingRecipe
+  id: ChemCleaningKitAbakanWinter
+  results:
+  - STWeaponRifleStalkerAbakanWinter
+  steps:
+    firstIngredient: CraftChemicalCleaningKit
+    secondIngredient: STWeaponRifleStalkerAbakanWinterMono
+    time: 15
+
+- type: lightCraftingRecipe
+  id: ChemCleaningKitOC14Winter
+  results:
+  - STWeaponRifleOC14Winter
+  steps:
+    firstIngredient: CraftChemicalCleaningKit
+    secondIngredient: STWeaponRifleOC14WinterMono
+    time: 15

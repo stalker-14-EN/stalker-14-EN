@@ -1,0 +1,20 @@
+{
+    "version": 1,
+    "license": "Stalker 14 license",
+    "copyright": "Stalker CLA",
+    "size": {
+        "x": 96,
+        "y": 96
+    },
+    "states": [
+        {
+            "name": "green"
+        },
+        {
+            "name": "darkgreen"
+        },
+        {
+            "name": "red"
+        }
+    ]
+}

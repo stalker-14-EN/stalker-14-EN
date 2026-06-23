@@ -1101,3 +1101,178 @@
     - id: 556M856Box
     sound:
       path: /Audio/Effects/unwrap.ogg
+
+# warzone shop
+- type: entity
+  id: STLostGear
+  parent: BaseItem
+  name: Lost Gear
+  description: A piece of lost gear. One stalker's trash...
+  suffix: Stalker
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/bag_potato.rsi
+    state: Bag_potato3
+  - type: SpawnItemsOnUse
+    items:
+    - id: ClothingBeltTarzanDeserter
+      prob: .1
+      orGroup: GiftPool
+    - id: ClothingCapeDeserters
+      prob: .1
+      orGroup: GiftPool
+    - id: ClothingBeltWebbingDeserter
+      prob: .01
+      orGroup: GiftPool
+    - id: ClothingTorsoTurtlenecksDeserterCamouflage
+      prob: .1
+      orGroup: GiftPool
+    - id: ClothingLegsJeansDeserterCamouflage
+      prob: .1
+      orGroup: GiftPool
+    - id: ClothingTorsoTShirtZavet
+      prob: .1
+      orGroup: GiftPool
+    - id: ClothingTorsoAnomalistTechnician
+      prob: .1
+      orGroup: GiftPool
+    - id: ClothingLegsAnomalistTechnician
+      prob: .1
+      orGroup: GiftPool
+    - id: ClothingMaskGasAnomalists
+      prob: .01
+      orGroup: GiftPool
+    - id: ClothingOuterCoatIvyAnomalist
+      prob: .01
+      orGroup: GiftPool
+    - id: ClothingLegsJeansPolice
+      prob: .1
+      orGroup: GiftPool
+    - id: ClothingTorsoJacketPolice
+      prob: .01
+      orGroup: GiftPool
+    - id: ClothingLegsJeansProjectPeshka
+      prob: .001
+      orGroup: GiftPool
+    - id: ClothingTorsoJaba
+      prob: .1
+      orGroup: GiftPool
+    - id: ClothingLegsJeansJaba
+      prob: .1
+      orGroup: GiftPool
+    - id: ClothingHandsGlovesJabs
+      prob: .01
+      orGroup: GiftPool
+    - id: DrinkLongIslandIcedTeaGlass
+      prob: .01
+      orGroup: GiftPool
+    - id: Roubles2000
+      prob: .07
+      orGroup: GiftPool
+    - id: Roubles5000
+      prob: .01
+      orGroup: GiftPool
+    - id: Hryvnias25
+      prob: .05
+      orGroup: GiftPool
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+
+- type: entity
+  id: STLostToy
+  parent: BaseItem
+  name: Lost Toy
+  description: A toy recovered from the zone. It's been here a long time.
+  suffix: Stalker
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/bag_potato.rsi
+    state: Bag_potato3
+  - type: SpawnItemsOnUse
+    items:
+    - id: PlushieOldStalker
+      prob: .05
+      orGroup: GiftPool
+    - id: PlushieExperiment
+      prob: .01
+      orGroup: GiftPool
+    - id: STPlushieFeltCat2
+      prob: .1
+      orGroup: GiftPool
+    - id: STPlushieFeltCat3
+      prob: .1
+      orGroup: GiftPool
+    - id: STPlushieFeltBear
+      prob: .1
+      orGroup: GiftPool
+    - id: STPlushieFeltBoar
+      prob: .1
+      orGroup: GiftPool
+    - id: PlushieHampter
+      prob: .007
+      orGroup: GiftPool
+    - id: PlushieLizardJobLawyer
+      prob: .01
+      orGroup: GiftPool
+    - id: PlushieLizardJobMedicaldoctor
+      prob: .01
+      orGroup: GiftPool
+    - id: PlushiePenguin
+      prob: .05
+      orGroup: GiftPool
+    - id: PlushieSnake
+      prob: .05
+      orGroup: GiftPool
+    - id: PlushieVulp
+      prob: .001
+      orGroup: GiftPool
+    - id: PlushieXeno
+      prob: .001
+      orGroup: GiftPool
+    - id: ToyFigurineBartender
+      prob: .05
+      orGroup: GiftPool
+    - id: ToyFigurineBoxer
+      prob: .07
+      orGroup: GiftPool
+    - id: ToyFigurineGriffin
+      prob: .04
+      orGroup: GiftPool
+    - id: ToyIan
+      prob: .005
+      orGroup: GiftPool
+    - id: ToyFigurineMouse
+      prob: .05
+      orGroup: GiftPool
+    - id: STToyCosmonaut
+      prob: .1
+      orGroup: GiftPool
+    - id: ToyRubberDuck
+      prob: .08
+      orGroup: GiftPool
+    - id: ToySeraph
+      prob: .007
+      orGroup: GiftPool
+    - id: HelicopterInstrument
+      prob: .01
+      orGroup: GiftPool
+    - id: OcarinaInstrument
+      prob: .01
+      orGroup: GiftPool
+    - id: RevolverCapGun
+      prob: .006
+      orGroup: GiftPool
+    - id: ClothingMaskRat
+      prob: .02
+      orGroup: GiftPool
+    - id: ClothingMaskRaven
+      prob: .02
+      orGroup: GiftPool
+    - id: ClothingMaskJackal
+      prob: .02
+      orGroup: GiftPool
+    - id: ClothingMaskFox
+      prob: .02
+      orGroup: GiftPool
+    sound:
+      path: /Audio/Effects/unwrap.ogg

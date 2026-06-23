@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Stalker14 CLA",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "plita"
+    },
+    {
+      "name": "plitaL4"
+    },
+    {
+      "name": "plitaL5"
+    },
+    {
+      "name": "plitaL6"
+    },
+    {
+      "name": "plitaR4"
+    },
+    {
+      "name": "plitaR5"
+    },
+    {
+      "name": "plitaR6"
+    }
+  ]
+}

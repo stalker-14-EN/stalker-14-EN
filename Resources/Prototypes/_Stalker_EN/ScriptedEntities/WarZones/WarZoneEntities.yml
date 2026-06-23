@@ -1,0 +1,48 @@
+﻿# flags
+- type: entity
+  id: WarZoneSpawner_CordonPigFarm
+  parent: MarkerBase
+  name: Cordon Pig Farm Flag Spawner
+  description: Spawns dynamic faction flags for Cordon Pig Farm.
+  components:
+  - type: WarZoneSpawner
+    zoneProto: CordonPigFarm
+    ownerSpawns:
+      STStalkerBand:
+      - Banner7
+      STNeutralBand:
+      - Banner7
+      STJournalistsBand:
+      - Banner7
+      STDolgBand:
+      - Banner2
+      STFreedomBand:
+      - Banner3
+      STClearSkyBand:
+      - Banner14
+      STBanditsBand:
+      - Banner1
+      STMercenariesBand:
+      - Banner4
+      STRenegatsBand:
+      - Banner8
+      STMilitaryBand:
+      - Banner18
+      STSciBand:
+      - Banner18
+      STUNBand:
+      - Banner11
+      STGrehBand:
+      - Banner13
+      STMonolithBand:
+      - FactionFlagMonolith
+    neutralSpawns: []
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    spawnRadius: 0
+    spawnOnCapture: true
+    clearOnOwnerChange: true
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    layers:
+    - state: pink

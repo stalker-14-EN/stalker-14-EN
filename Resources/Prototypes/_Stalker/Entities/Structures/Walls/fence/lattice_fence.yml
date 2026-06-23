@@ -2,7 +2,6 @@
   parent: STBaseStructure
   id: STlatticefenceBase
   abstract: true
-  name: Lattice Fence
   components:
   - type: Sprite
     sprite: _Stalker/Structures/Walls/lattice_fence.rsi
@@ -37,6 +36,7 @@
     sprite: _Stalker/Structures/Walls/lattice_fence.rsi
     state: icon_straight
   - type: Sprite
+    drawdepth: Mobs
     layers:
     - state: straight
   - type: Fixtures
@@ -60,6 +60,7 @@
     sprite: _Stalker/Structures/Walls/lattice_fence.rsi
     state: icon_straight_rust
   - type: Sprite
+    drawdepth: Mobs
     layers:
     - state: straight_rust
   - type: Fixtures
@@ -68,6 +69,57 @@
         shape:
           !type:PhysShapeAabb
           bounds: "-0.10,-0.5,0.10,0.5"
+        density: 1000
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+
+- type: entity
+  parent: STlatticefenceBase
+  id: STlatticefenceStraightDesktopWindowed
+  suffix: ST, Mapping, straight
+  components:
+  - type: Icon
+    sprite: _Stalker/Structures/Walls/lattice_fence.rsi
+    state: icon_straight_windowed
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - state: straight_desktop_windowed
+      offset: 0.5, 0
+  - type: PlaceableSurface
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "0.60,-0.5,0.40,0.5" 
+        density: 1000
+        mask: 
+        - TableMask
+        layer:
+        - TableLayer
+
+- type: entity
+  parent: STlatticefenceBase
+  id: STlatticefenceStraightDesktop
+  suffix: ST, Mapping, straight
+  components:
+  - type: Icon
+    sprite: _Stalker/Structures/Walls/lattice_fence.rsi
+    state: icon_straight
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - state: straight_desktop
+      offset: 0.5, 0
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "0.60,-0.5,0.40,0.5" 
         density: 1000
         mask:
         - FullTileMask

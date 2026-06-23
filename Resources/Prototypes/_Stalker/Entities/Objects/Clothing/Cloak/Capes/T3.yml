@@ -52,8 +52,8 @@
       - 6,4,6,5
       - 8,4,8,5
       - 8,0,8,2
-  - type: ExplosionResistance
-    damageCoefficient: 0.85
+  #- type: ExplosionResistance Stalker EN - Removed kevlar coat armor.
+  #  damageCoefficient: 0.85
   - type: UserInterface
     interfaces:
       enum.StorageUiKey.Key:
@@ -96,19 +96,19 @@
   suffix: ST, T3
   components:
   - type: STWeight
-    self: 6
+    self: 4 # Stalker EN - No armor means lower weight!
   - type: Sprite
     sprite: _Stalker/Objects/Clothing/cloak/kevlaroviy.rsi
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/cloak/kevlaroviy.rsi
-  - type: Armor
-    armorClass: 2
-    modifiers:
-      coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.9
-        Heat: 0.9
+  #- type: Armor Stalker EN - Removed kevlar coat armor.
+  #  armorClass: 2
+  #  modifiers:
+  #    coefficients:
+  #      Blunt: 0.9
+  #      Slash: 0.9
+  #      Piercing: 0.9
+  #      Heat: 0.9
   - type: Storage
     maxItemSize: Normal
     blacklist:
@@ -124,8 +124,8 @@
       - 6,4,6,5
       - 8,4,8,5
       - 8,0,8,2
-  - type: ExplosionResistance
-    damageCoefficient: 0.85
+  #- type: ExplosionResistance Stalker EN - Removed kevlar coat armor.
+  #  damageCoefficient: 0.85
   - type: UserInterface
     interfaces:
       enum.StorageUiKey.Key:

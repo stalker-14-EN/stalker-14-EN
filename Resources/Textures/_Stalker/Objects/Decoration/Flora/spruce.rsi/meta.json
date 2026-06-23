@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "license": "Stalker 14 license",
+    "copyright": "Insurgent",
+    "size": {
+        "x": 96,
+        "y": 96
+    },
+    "states": [
+        {
+            "name": "spruce-orange"
+        },
+        {
+            "name": "spruce"
+        }
+    ]
+}

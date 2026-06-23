@@ -1,0 +1,107 @@
+- type: lightCraftingRecipe
+  id: ChemSTIrradiationkitAKS74Winter
+  results:
+  - STWeaponRifleAKS74WinterMono
+  steps:
+    firstIngredient: STIrradiationkit
+    secondIngredient: STWeaponRifleAKS74Winter
+    time: 8
+
+- type: lightCraftingRecipe
+  id: ChemSTIrradiationkitAKS74UWhite
+  results:
+  - STWeaponRifleAKS74UWhiteMono
+  steps:
+    firstIngredient: STIrradiationkit
+    secondIngredient: STWeaponRifleAKS74UWhite
+    time: 8
+
+- type: lightCraftingRecipe
+  id: ChemSTIrradiationkitAK103Mono
+  results:
+  - STWeaponRifleAK103Mono
+  steps:
+    firstIngredient: STIrradiationkit
+    secondIngredient: STWeaponRifleAK103MonoClean
+    time: 8
+
+- type: lightCraftingRecipe
+  id: ChemSTIrradiationkitAK12Mono
+  results:
+  - STWeaponRifleStalkerAK12Mono
+  steps:
+    firstIngredient: STIrradiationkit
+    secondIngredient: STWeaponRifleStalkerAK12MonoClean
+    time: 8
+
+- type: lightCraftingRecipe
+  id: ChemSTIrradiationkitG36Mono
+  results:
+  - STWeaponRifleG36Mono
+  steps:
+    firstIngredient: STIrradiationkit
+    secondIngredient: STWeaponRifleG36MonoClean
+    time: 8
+
+- type: lightCraftingRecipe
+  id: ChemSTIrradiationkitSVDMono
+  results:
+  - STWeaponSniperSVDMono
+  steps:
+    firstIngredient: STIrradiationkit
+    secondIngredient: STWeaponSniperSVDMonoClean
+    time: 8
+
+- type: lightCraftingRecipe
+  id: ChemSTIrradiationkitAPSBare
+  results:
+  - WeaponPistolStalkerAPSBareMono
+  steps:
+    firstIngredient: STIrradiationkit
+    secondIngredient: WeaponPistolStalkerAPSBare
+    time: 5
+
+- type: lightCraftingRecipe
+  id: ChemSTIrradiationkitWebbingHolsterMonolith
+  results:
+  - ClothingBeltWebbingHolsterMonolith
+  steps:
+    firstIngredient: STIrradiationkit
+    secondIngredient: ClothingBeltWebbingHolsterMonolithClean
+    time: 12
+
+- type: lightCraftingRecipe
+  id: ChemSTIrradiationkitBeretMonolith
+  results:
+  - ClothingHeadBeretMonolith
+  steps:
+    firstIngredient: STIrradiationkit
+    secondIngredient: ClothingHeadBeretMonolithClean
+    time: 5
+
+- type: lightCraftingRecipe
+  id: ChemSTIrradiationkitHelmetBerill5MMonolith
+  results:
+  - ClothingHeadHelmetBerill5MMonolith
+  steps:
+    firstIngredient: STIrradiationkit
+    secondIngredient: ClothingHeadHelmetBerill5MMonolithClean
+    time: 15
+
+- type: lightCraftingRecipe
+  id: IrradiationkitAbakanWinterMono
+  results:
+  - STWeaponRifleStalkerAbakanWinterMono
+  steps:
+    firstIngredient: STIrradiationkit
+    secondIngredient: STWeaponRifleStalkerAbakanWinter
+    time: 15
+
+- type: lightCraftingRecipe
+  id: IrradiationkitOC14Mono
+  results:
+  - STWeaponRifleOC14WinterMono
+  steps:
+    firstIngredient: STIrradiationkit
+    secondIngredient: STWeaponRifleOC14Winter
+    time: 15

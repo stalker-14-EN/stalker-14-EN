@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Stalker14 CLA",
+    "size": {
+        "x": 96,
+        "y": 96
+    },
+    "states": [
+        {
+           "name": "dry01"
+        },
+        {
+          "name": "dry02"
+        },
+        {
+            "name": "dry03"
+        },
+        {
+            "name": "darkpink"
+        },
+        {
+            "name": "darkpink1"
+        },
+        {
+            "name": "reddarkpink"
+        },
+        {
+            "name": "redpink"
+        },
+        {
+            "name": "redpink1"
+        }
+    ]
+}

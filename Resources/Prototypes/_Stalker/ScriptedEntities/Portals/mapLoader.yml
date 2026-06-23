@@ -1,16 +1,16 @@
 - type: mapLoader
   id: StalkerBaseMaps
   mapPaths:
-    RedForest: /Maps/_ST/World/RedForestV79.yml
-    Svalka: /Maps/_ST/World/SvalkaV159.yml
-    TemnajLohina: /Maps/_ST/World/TemnajLohinaV88.yml
-    RostokAndWilds: /Maps/_ST/World/RostokAndWildsV21.yml
-    UndegroundWildsBar100rads: /Maps/_ST/World/UndegroundWildsBar100radsV38.yml
-    TemDolina: /Maps/_ST/World/TemnajDolinaGEN2V37.yml
-    Agroprom: /Maps/_ST/World/AgropromV97.yml
-    Limansk: /Maps/_ST/World/limanskV148.yml
-    MiltiaryBase: /Maps/_ST/World/MBaseV15.yml
-    Yantar: /Maps/_ST/World/YantarNEWV5.yml
-    YantarLabs: /Maps/_ST/World/YantarLabsV2.yml
-    Bolota: /Maps/_ST/World/BolotaV81.yml
-    JupiterPlant: /Maps/_ST/World/JupiterPlant.yml
+    Red Forest: /Maps/_ST/World/RedForest.yml
+    Garbage: /Maps/_ST/World/Garbage.yml
+    Dark Hollow: /Maps/_ST/World/DarkHollow.yml
+    Rostok and Wilds: /Maps/_ST/World/RostokWilds.yml
+    Bar and Sido: /Maps/_ST/World/BarSido.yml
+    Dark Valley: /Maps/_ST/World/DarkValley.yml
+    Agroprom: /Maps/_ST/World/Agroprom.yml
+    Limansk: /Maps/_ST/World/Limansk.yml
+    Military Base: /Maps/_ST/World/MilitaryBase.yml
+    Yantar: /Maps/_ST/World/Yantar.yml
+    Miracle Machine: /Maps/_ST/World/MiracleMachine.yml
+    Swamps: /Maps/_ST/World/Swamps.yml
+    Jupiter Plant: /Maps/_ST/World/JupiterPlant.yml

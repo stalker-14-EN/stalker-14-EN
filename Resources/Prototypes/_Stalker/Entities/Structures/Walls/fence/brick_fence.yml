@@ -1,0 +1,340 @@
+- type: entity
+  parent: BaseStructure
+  id: BaseFenceBrick
+  name: brick fence # EN change
+  description: A fence made of bricks. # EN change
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _Stalker/Structures/Walls/brick_fences.rsi
+    drawdepth: WallTops
+  - type: Physics
+    bodyType: Static
+  - type: Transform
+    anchored: true
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: FlimsyMetallic
+ # - type: NodeContainer # EN start
+ #   nodes:
+ #     high:
+ #       !type:CableDeviceNode
+ #       nodeGroupID: HVPower
+ #     medium:
+ #       !type:CableDeviceNode
+ #       nodeGroupID: MVPower
+ #     low:
+ #       !type:CableDeviceNode
+ #       nodeGroupID: Apc # EN end
+  - type: Appearance
+  - type: AnimationPlayer
+
+- type: entity
+  parent: BaseFenceBrick
+  id: FenceBrickStraight
+  suffix: ST, Mapping, straight
+  components:
+  - type: Occluder
+    boundingBox: "-0.10,-0.5,0.10,0.5"
+  - type: Icon
+    sprite: _Stalker/Structures/Walls/brick_fences.rsi
+    state: icon_straight
+  - type: Sprite
+    layers:
+    - state: straight
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.10,-0.5,0.10,0.5"
+        density: 1000
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+  - type: InteractionPopup
+    interactSuccessString: comp-fence-knock
+    messagePerceivedByOthers: comp-fence-knock
+    interactSuccessSound:
+      collection: FenceStalker
+
+- type: entity
+  parent: BaseFenceBrick
+  id: FenceBrickCorner
+  suffix: ST, Mapping, corner
+  components:
+  - type: Occluder
+    boundingBox: "-0.5,-0.1,0.1,0.5"
+  - type: Sprite
+    layers:
+    - state: corner
+  - type: Fixtures
+    fixtures:
+      # needs two shapes to properly handle a triangle corner without weirdness
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.1,-0.1,0.1,0.5"
+        density: 1000
+        mask:
+        - FullTileMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+      fix2:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.1,-0.1,0.1"
+        density: 1000
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+  - type: InteractionPopup
+    interactSuccessString: comp-fence-knock
+    messagePerceivedByOthers: comp-fence-knock
+    interactSuccessSound:
+      collection: FenceStalker
+
+- type: entity
+  parent: BaseFenceBrick
+  id: FenceBrickEnd
+  suffix: ST, Mapping, end
+  components:
+  - type: Icon
+    sprite: _Stalker/Structures/Walls/brick_fences.rsi
+    state: icon_end
+  - type: Sprite
+    layers:
+    - state: end
+  - type: Occluder
+    boundingBox: "-0.1,-0.5,0.1,0.0"
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.1,-0.5,0.1,0.0"
+        density: 1000
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+  - type: InteractionPopup
+    interactSuccessString: comp-fence-knock
+    messagePerceivedByOthers: comp-fence-knock
+    interactSuccessSound:
+      collection: FenceStalker
+
+- type: entity
+  parent: BaseFenceBrick
+  id: FenceBrickBroken1
+  name: broken brick fence # EN change
+  suffix: ST, Mapping
+  description: A fence made of bricks. I wonder who managed to break it? # EN change
+  components:
+  - type: Sprite
+    layers:
+    - state: brokenbrickfence1
+  - type: Physics
+    canCollide: false
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.10,-0.5,0.10,0.5"
+        density: 1000
+        mask:
+        - FullTileMask
+        layer:
+        - TableLayer
+        - MidImpassable
+        - LowImpassable
+  - type: InteractionPopup
+    interactSuccessString: comp-fence-knock
+    messagePerceivedByOthers: comp-fence-knock
+    interactSuccessSound:
+      collection: FenceStalker
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/metal_break1.ogg
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          PartRodMetal1:
+            min: 1
+            max: 1
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: BaseFenceBrick
+  id: FenceBrickBroken2
+  name: broken brick fence # EN change
+  suffix: ST, Mapping
+  description: A fence made of bricks. I wonder who managed to break it? # EN change
+  components:
+  - type: Sprite
+    layers:
+    - state: brokenbrickfence2
+  - type: Physics
+    canCollide: false
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.10,-0.5,0.10,0.5"
+        density: 1000
+        mask:
+        - FullTileMask
+        layer:
+        - TableLayer
+        - MidImpassable
+        - LowImpassable
+  - type: InteractionPopup
+    interactSuccessString: comp-fence-knock
+    messagePerceivedByOthers: comp-fence-knock
+    interactSuccessSound:
+      collection: FenceStalker
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/metal_break1.ogg
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          PartRodMetal1:
+            min: 1
+            max: 1
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: BaseFenceBrick
+  id: FenceBrickBroken3
+  name: broken brick fence # EN change
+  suffix: ST, Mapping
+  description: A fence made of bricks. I wonder who managed to break it? # EN change
+  components:
+  - type: Sprite
+    layers:
+    - state: brokenbrickfence3
+  - type: Physics
+    canCollide: false
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.10,-0.5,0.10,0.5"
+        density: 1000
+        mask:
+        - FullTileMask
+        layer:
+        - TableLayer
+        - MidImpassable
+        - LowImpassable
+  - type: InteractionPopup
+    interactSuccessString: comp-fence-knock
+    messagePerceivedByOthers: comp-fence-knock
+    interactSuccessSound:
+      collection: FenceStalker
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/metal_break1.ogg
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          PartRodMetal1:
+            min: 1
+            max: 1
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: BaseFenceBrick
+  id: FenceBrickBroken4
+  name: broken brick fence # EN change
+  suffix: ST, Mapping
+  description: A fence made of bricks. I wonder who managed to break it? # EN change
+  components:
+  - type: Sprite
+    layers:
+    - state: brokenbrickfence4
+  - type: Physics
+    canCollide: false
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.10,-0.5,0.10,0.5"
+        density: 1000
+        mask:
+        - FullTileMask
+        layer:
+        - TableLayer
+        - MidImpassable
+        - LowImpassable
+  - type: InteractionPopup
+    interactSuccessString: comp-fence-knock
+    messagePerceivedByOthers: comp-fence-knock
+    interactSuccessSound:
+      collection: FenceStalker
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/metal_break1.ogg
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          PartRodMetal1:
+            min: 1
+            max: 1
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]

@@ -34,7 +34,7 @@ public sealed class LinkByStringSystem : EntitySystem
         if (linkString == null)
             return;
 
-        var query = EntityQueryEnumerator<LinkByStringComponent>();
+        var query = AllEntityQuery<LinkByStringComponent>();
 
         while (query.MoveNext(out var uid, out var link))
         {

@@ -1,0 +1,67 @@
+- type: entity
+  id: STBrainBurnerBase
+  parent: BaseStructure
+  name: Rainbow Emitter # EN change
+  suffix: ST, Mapping
+  description: A tall metal antenna consisting of metal trusses and beams. # EN change
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+  - type: SpriteFade
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-1.3,-8,1.3,-5"
+        density: 5000
+        mask:
+        - TableMask
+        layer:
+        - TableLayer
+
+- type: entity
+  id: STBrainBurner1
+  parent: STBrainBurnerBase
+  name: Rainbow Emitter # EN change
+  suffix: ST, Mapping, First # EN change
+  description: A tall metal antenna consisting of metal trusses and beams. # EN change
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/brainburner_radar/brainburner_1.rsi
+    state: brainburner1
+
+- type: entity
+  id: STBrainBurner2
+  parent: STBrainBurnerBase
+  name: Rainbow Emitter # EN change
+  suffix: ST, Mapping, Second # EN change
+  description: A tall metal antenna consisting of metal trusses and beams. # EN change
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/brainburner_radar/brainburner_2.rsi
+    state: brainburner2
+
+- type: entity
+  id: STBrainBurner3
+  parent: STBrainBurnerBase
+  name: Rainbow Emitter # EN change
+  suffix: ST, Mapping, Third # EN change
+  description: A tall metal antenna consisting of metal trusses and beams. # EN change
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/brainburner_radar/brainburner_3.rsi
+    state: brainburner3
+
+- type: entity
+  id: STBrainBurner4
+  parent: STBrainBurnerBase
+  name: Rainbow Emitter # EN change
+  suffix: ST, Mapping, Fourth # EN change
+  description: A tall metal antenna consisting of metal trusses and beams. # EN change
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Decoration/brainburner_radar/brainburner_4.rsi
+    state: brainburner4

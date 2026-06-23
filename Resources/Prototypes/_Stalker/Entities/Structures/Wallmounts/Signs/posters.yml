@@ -815,3 +815,73 @@
     sprite: _Stalker/Structures/Wallmounts/metro.rsi
     state: reich
     snapCardinals: true
+
+- type: entity
+  parent: PosterBaseStalker
+  id: PosterSerafimCandle
+  name: "Пока горит звезда..."
+  description: "Следуй за светом звезды и не сомневайся на своём пути."
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    state: poster_SerafimCandle
+
+- type: entity
+  parent: PosterBaseStalker
+  id: PosterPrignisStalker
+  name: "Свежевыпущенный плакат"
+  description: "В зоне опасно - то пули свистят над головой, то слепой пёс наровит в шею прыгнуть. Пригнись, сталкер!"
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    state: poster_PrignisStalker
+
+- type: entity
+  parent: PosterBaseStalker
+  id: PosterKvakal
+  name: "А ты сегодня квакал?"
+  description: "Поговаривают, далеко в болотах встречали жаб размером с автобус. Некоторые смельчаки осмеливались подойти и после их никто больше не видел."
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    state: poster_Kvakal
+
+- type: entity
+  parent: PosterBaseStalker
+  id: PosterDolgPortrait
+  name: "Генерал Воронин"
+  description: "Вытянутый мужик в берете долга - когда-то гордость группировки и эталон моральных качеств человечества в зоне, хотя и поговаривают о нём всякое."
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    state: poster_DolgPortrait
+
+- type: entity
+  parent: PosterBaseStalker
+  id: PosterAdidasiki
+  name: "Гоп-стоп"
+  description: "Они подошли из-за угла."
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    state: poster_Adidasiki
+
+- type: entity
+  parent: PosterBaseStalker
+  id: PosterPosledniyDen
+  name: "Потёртый плакат"
+  description: "Сомнительное на вид изображение чёрной пантеры с разинутой пастью. От шеи агрессивной кошки развеваются теневые волокна, а под изображением слово «Конец». Не к добру это..."
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    state: poster_PosledniyDen
+
+- type: entity
+  parent: PosterBaseStalker
+  id: PosterBobMarley
+  name: "Боб Марли"
+  description: "Музыкант и композитор, для которого небо не предел - он летает выше."
+  suffix: ST, Mapping
+  components:
+  - type: Sprite
+    state: poster_BobMarley
