@@ -1,5 +1,3 @@
-#-PIVO-UPDATE-
-
 - type: entity
   id: ZoneAnomalyBeer
   name: Beer
@@ -47,46 +45,45 @@
           ratio: 25
 
 - type: entity
-  id: ZoneAnomalyPoppyFieldConditionalSpawner
+  id: ZoneAnomalyPoppyFieldInert
   name: Poppy Field Decor
   parent: ZoneAnomalyBase
-  suffix: Without abnormal properties
+  suffix: Stalker, Poppy Field, Anomaly
   components:
     - type: ZoneAnomalyUpdateTriggerCollide
     - type: Sprite
       sprite: _Stalker_EN/Objects/Anomalies/poppyfield.rsi
-      layers:
-        - state: idle
-          shader: unshaded
+      state: idle
     - type: ZoneAnomaly
-      detectedLevel: 3
-      preparingDelay: 0
-      activationDelay: 0
-      chargeTime: 0.05
+      detectedLevel: 5
+    - type: STAnomalyTips
+      icon:
+        sprite: /Textures/_Stalker/Interface/Overlays/anomaly_tips.rsi
+        state: unknown
+    - type: ZoneArtifactSpawner
+      artifacts:
+      - id: null
+        ratio: 140
+      - id: ZoneArtifactPellicle
+        tier: 1
+        ratio: 15
+      - id: ZoneArtifactToxic
+        tier: 1
+        ratio: 15
+      #- id: ZoneArtifactWeirdFlower
+      #  tier: 3
+      #  ratio: 2
 
+# spawner for the petals
+# poppy field is mapping only so doing it like this is fine
 - type: entity
-  id: ZoneAnomalyPoppyField
-  name: Poppy Field
-  parent: MarkerBase
-  suffix: Stalker, Poppy Field, Anomaly
+  name: poppy petals (1-4) (100%) 30m
+  id: STTriggerPoppyPetals1410030
+  parent: STBaseTrigger1410030
+  suffix: ST, T0, Poppy Field, Trigger
   components:
-    - type: ApproachTrigger
-    - type: Sprite
-      sprite: _Stalker_EN/Objects/Anomalies/poppyfield.rsi
-      layers:
-        - state: idle
-          shader: unshaded
-    - type: SpawnOnApproach
-      minAmount: 3
-      maxAmount: 5
-      maxOffset: 4
-      minOffset: 6
-      cooldown: 900
-      chance: 1
-      prototypes:
-        - STMobPoppyFirefiles
-      restricted:
-        - STMobPoppyFirefiles
-    - type: ConditionalSpawner
-      prototypes:
-        - ZoneAnomalyPoppyFieldConditionalSpawner
+  - type: SpawnOnApproach
+    prototypes:
+    - STMobPoppyFirefiles
+    restricted:
+    - STMobPoppyFirefiles

@@ -1,0 +1,96 @@
+- type: entity
+  parent: BaseMobMutant
+  id: STMobPoppyFirefiles
+  name: Poppy petals
+  suffix: ST, T0
+  description: To sleep...
+  components:
+    - type: Damageable
+      damageModifierSet: STMutantT2DamageModifierSet
+    - type: Sprite
+      drawdepth: Mobs
+      sprite: _Stalker_EN/Objects/Anomalies/poppypetals.rsi
+      layers:
+      - map: [ "enum.DamageStateVisualLayers.Base" ]
+        state: petals
+    - type: Destructible
+      thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 25
+        behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - type: Bloodstream
+      bloodMaxVolume: 0
+    - type: MeleeWeapon
+      attackRate: 0.4
+      angle: 30
+      range: 1
+      animation: WeaponAttackNoAnim
+      damage:
+        types:
+          Slash: 0.2
+          Piercing: 0.2
+      soundHit:
+        path: /Audio/_Stalker_EN/Mutants/bear_hit.ogg
+        params:
+          volume: -36
+      soundSwing:
+        path: /Audio/Animals/bear.ogg
+        params:
+          volume: -36
+    - type: BonusMeleeDamage
+      heavyDamageMultiplier: 0.2
+    - type: SolutionContainerManager
+      solutions:
+        melee:
+          reagents:
+          - ReagentId: ChloralHydrate
+            Quantity: 20
+    - type: MeleeChemicalInjector
+      solution: melee
+      transferAmount: 12
+    - type: SpeedModifierContacts
+      walkSpeedModifier: 0.35
+      sprintSpeedModifier: 0.35
+    - type: Physics
+      bodyType: Dynamic
+      fixedRotation: false
+    - type: PointLight
+      radius: 2
+      energy: 1
+      color: "#ea003b"
+      castShadows: true
+    - type: FootstepModifier
+      footstepSoundCollection:
+        path: /Audio/_Stalker/Mutants/bloodsucker_breath2.ogg
+        params:
+          volume: -36
+    - type: ZoneAnomaly
+      detectedLevel: 3
+    - type: STWeight
+      self: -1
+    - type: STAnomalyTips
+      icon:
+        sprite: /Textures/_Stalker/Interface/Overlays/anomaly_tips.rsi
+        state: unknown
+    - type: AmbientSound
+      enabled: true
+      volume: -15
+      range: 8
+      sound:
+        path: /Audio/_Stalker_EN/Music/Misc/WaltzNo3.ogg
+
+# i hate it here
+- type: entity
+  id: WeaponAttackNoAnim
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: TimedDespawn
+    lifetime: 0
+  - type: EffectVisuals
+  - type: WeaponArcVisuals
+  - type: Tag
+    tags:
+    - HideContextMenu

@@ -1,0 +1,53 @@
+﻿- type: decal
+  id: STDecalPoppy1
+  tags: ["ST", "Flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _Stalker_EN/Decals/poppy.rsi
+    state: poppy1
+
+- type: decal
+  id: STDecalPoppy2
+  tags: ["ST", "Flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _Stalker_EN/Decals/poppy.rsi
+    state: poppy2
+
+- type: decal
+  id: STDecalPoppy3
+  tags: ["ST", "Flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _Stalker_EN/Decals/poppy.rsi
+    state: poppy3
+
+- type: decal
+  id: STDecalPoppy4
+  tags: ["ST", "Flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _Stalker_EN/Decals/poppy.rsi
+    state: poppy4
+
+- type: decal
+  id: STDecalPoppy5
+  tags: ["ST", "Flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _Stalker_EN/Decals/poppy.rsi
+    state: poppy5
+
+- type: decal
+  id: STDecalPoppy6
+  tags: ["ST", "Flora"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _Stalker_EN/Decals/poppy.rsi
+    state: poppy6

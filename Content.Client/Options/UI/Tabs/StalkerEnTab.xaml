@@ -12,6 +12,8 @@
                           Text="{Loc 'ui-options-pda-notifications'}"/>
                 <CheckBox Name="PdaNotificationPngIconsCheckbox"
                           Text="{Loc 'ui-options-pda-notification-png-icons'}"/>
+                <CheckBox Name="PdaInvisibilityCheckbox"
+                          Text="{Loc 'ui-options-pda-invisibility'}"/>
             </BoxContainer>
         </ScrollContainer>
         <ui:OptionsTabControlRow Name="Control"

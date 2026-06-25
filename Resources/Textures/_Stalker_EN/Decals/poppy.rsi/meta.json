@@ -1,0 +1,29 @@
+﻿{
+    "version": 1,
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "license": "CC-BY-SA-3.0",
+    "copyright": "sprites by carousel",
+    "states": [
+        {
+            "name": "poppy1"
+        },
+        {
+            "name": "poppy2"
+        },
+        {
+            "name": "poppy3"
+        },
+        {
+            "name": "poppy4"
+        },
+        {
+            "name": "poppy5"
+        },
+        {
+            "name": "poppy6"
+        }
+    ]
+}

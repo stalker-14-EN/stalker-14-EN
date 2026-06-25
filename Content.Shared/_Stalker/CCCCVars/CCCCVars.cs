@@ -91,6 +91,13 @@ public sealed partial class CCCCVars
     public static readonly CVarDef<bool> PdaNotificationPngIcons =
         CVarDef.Create("stalker.pda_notification_png_icons", true, CVar.CLIENTONLY);
 
+    /// <summary>
+    /// Stalker-en-change
+    /// Option for player to hide that they are online from the PDA contact list.
+    /// </summary>
+    public static readonly CVarDef<bool> PdaInvisibilityEnabled =
+        CVarDef.Create("stalker.pda_invisibility_enabled", false, CVar.CLIENTONLY | CVar.ARCHIVE);
+
     /*
     * Stalker OpenRouter KEY
     */

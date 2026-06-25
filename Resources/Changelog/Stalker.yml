@@ -3343,5 +3343,12 @@
   id: 375
   time: '2026-06-23T17:27:51.296256+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/979
+- author: Llfiend
+  changes:
+  - message: New option in the STALKER EN tab for hiding PDA online status
+    type: Add
+  id: 376
+  time: '2026-06-24T19:09:27.217340+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/992
 Name: Stalker
 Order: -1

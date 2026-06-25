@@ -1,4 +1,5 @@
 using System.Linq;
+using Content.Server._Stalker_EN.PDA;
 using Content.Server.Administration.Logs;
 using Content.Server.CartridgeLoader;
 using Content.Server.CartridgeLoader.Events;
@@ -59,6 +60,7 @@ public sealed partial class STMessengerSystem : EntitySystem
     [Dependency] private readonly SharedSTFactionResolutionSystem _factionResolution = default!;
     [Dependency] private readonly IPlayerManager _playerManager = default!;
     [Dependency] private readonly MindSystem _mind = default!;
+    [Dependency] private readonly STPdaInvisibilityModeSystem _PdaInvisMode = default!;
 
     private const int MaxChannelMessages = 200;
     private const int MaxDmMessages = 100;
@@ -1134,6 +1136,9 @@ public sealed partial class STMessengerSystem : EntitySystem
             }
 
             var rankIcon = ResolveContactRankIconCached(contactKey);
+
+            if (_PdaInvisMode.IsInvisible(contactEntry.UserId))
+                rankIcon = null;
 
             contactInfos.Add(new STMessengerContactInfo(
                 contactEntry.CharacterName,
