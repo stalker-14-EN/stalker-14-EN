@@ -24,8 +24,8 @@
     - type: RevolverAmmoProvider
       whitelist:
         tags:
-          - Cartridge45ACP
-          - STSpeedLoader45ACP
+        - Cartridge357Magnum
+        - SpeedLoader357Magnum
       proto: null
       capacity: 6
       chambers: [ null, null, null, null, null, null ]
