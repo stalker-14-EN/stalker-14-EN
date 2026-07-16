@@ -35,3 +35,36 @@
     grid:
     - 0,0,50,40
 
+- type: entity
+  parent: STClothingBackBase
+  id: ClothingBackpackDuffelYellowArtifact
+  name: artifactyellowhodertest
+  description: A modified sunrise bag designed and devloped by freedoms enginering team (Yes that one that always does drugs and gets nothing done!)
+  components:
+    - type: STWeight
+      self: 29
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/backpacks/Duffels/duffel.rsi
+    - type: Storage # 2 2x4s 1 4x8s total of 10 slots for artifacts
+      maxItemSize: Normal 
+      grid:
+       - 0,2,1,5
+       - 3,0,6,5
+       - 8,2,9,5
+      quickInsert: true
+      areaInsert: true
+      whitelist:
+      tags:
+        - STArtifact
+      blacklist:
+        tags:
+         - Plate
+    - type: Trash
+      time: 1200
+    - type: ExplosionResistance
+      damageCoefficient: 0.0
+    - type: PersonalDamageBlock
+      quickEquip: false
+    - type: RadiationBlockingContainer
+      resistance: 20
+    - type: SuppressArtifactContainer
