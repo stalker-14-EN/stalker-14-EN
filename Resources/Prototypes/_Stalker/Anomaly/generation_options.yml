@@ -49,7 +49,6 @@
     # Electrical
     - protoId: ZoneAnomalyElectra
     - protoId: ZoneAnomalyGarland
-      weight: 1.2
     # Gravity
     - protoId: ZoneAnomalyBurden
       weight: 0.2

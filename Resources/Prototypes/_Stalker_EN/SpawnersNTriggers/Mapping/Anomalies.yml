@@ -112,3 +112,119 @@
     - ZoneAnomalyFreezer
     chance: 1
     offset: 0.0
+
+# Click! Click! Click!
+
+- type: entity
+  id: SpawnerZoneAnomalyClicker1
+  name: Clicker Anomaly Spawner (1%)
+  suffix: Stalker
+  parent: FlexibleMarker
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+    - sprite: _Stalker/Objects/Other/Anomalys/garland.rsi
+      state: idle
+    - sprite: _Stalker/Markers/numbers.rsi
+      state: 1
+  - type: RandomSpawner
+    prototypes:
+    - ZoneAnomalyClicker
+    chance: 0.01
+    offset: 0.0
+
+- type: entity
+  id: SpawnerZoneAnomalyClicker5
+  name: Clicker Anomaly Spawner (5%)
+  suffix: Stalker
+  parent: FlexibleMarker
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+    - sprite: _Stalker/Objects/Other/Anomalys/garland.rsi
+      state: idle
+    - sprite: _Stalker/Markers/numbers.rsi
+      state: 5
+  - type: RandomSpawner
+    prototypes:
+    - ZoneAnomalyClicker
+    chance: 0.05
+    offset: 0.0
+
+- type: entity
+  id: SpawnerZoneAnomalyClicker10
+  name: Clicker Anomaly Spawner (10%)
+  suffix: Stalker
+  parent: FlexibleMarker
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+    - sprite: _Stalker/Objects/Other/Anomalys/garland.rsi
+      state: idle
+    - sprite: _Stalker/Markers/numbers.rsi
+      state: 10
+  - type: RandomSpawner
+    prototypes:
+    - ZoneAnomalyClicker
+    chance: 0.1
+    offset: 0.0
+
+- type: entity
+  id: SpawnerZoneAnomalyClicker25
+  name: Clicker Anomaly Spawner (25%)
+  suffix: Stalker
+  parent: FlexibleMarker
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+    - sprite: _Stalker/Objects/Other/Anomalys/garland.rsi
+      state: idle
+    - sprite: _Stalker/Markers/numbers.rsi
+      state: 25
+  - type: RandomSpawner
+    prototypes:
+    - ZoneAnomalyClicker
+    chance: 0.25
+    offset: 0.0
+
+- type: entity
+  id: SpawnerZoneAnomalyClicker50
+  name: Clicker Anomaly Spawner (50%)
+  suffix: Stalker
+  parent: FlexibleMarker
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+    - sprite: _Stalker/Objects/Other/Anomalys/garland.rsi
+      state: idle
+    - sprite: _Stalker/Markers/numbers.rsi
+      state: 50
+  - type: RandomSpawner
+    prototypes:
+    - ZoneAnomalyClicker
+    chance: 0.5
+    offset: 0.0
+
+- type: entity
+  id: SpawnerZoneAnomalyClicker100
+  name: Clicker Anomaly Spawner (100%)
+  suffix: Stalker
+  parent: FlexibleMarker
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+    - sprite: _Stalker/Objects/Other/Anomalys/garland.rsi
+      state: idle
+    - sprite: _Stalker/Markers/numbers.rsi
+      state: 100
+  - type: RandomSpawner
+    prototypes:
+    - ZoneAnomalyClicker
+    chance: 1
+    offset: 0.0
