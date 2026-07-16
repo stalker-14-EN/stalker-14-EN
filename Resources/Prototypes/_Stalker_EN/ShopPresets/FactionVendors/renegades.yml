@@ -3,7 +3,7 @@
   minSellPrice: 5
   itemsForSale:
     # Exclusive -
-    ToothStalker: 450
+    ToothStalker: 900
     TradeBox: 2000
 
     # Thermal group - 1
@@ -243,7 +243,6 @@
       ClothingHeadInfantryHelmetRenegate: 600 # T2 - PVP
       ClothingHeadHelmetVityaz1L: 3000 # T3 - PVE
       ClothingHeadAssaultHelmet: 3500 # T3 - PVP
-      ClothingMaskRenegate: 3000 # T3
       # OuterClothing #
       ClothingJaketRealHuman: 60 # T1 - PVE
       STClothingOuterArmorLightPlateVestBaseRenegate: 1000 # T2 - PvP
@@ -479,15 +478,15 @@
       # 5,45x39
       STWeaponRifleAKS74U: 3
       STWeaponRifleAKS74: 6
-      STWeaponRifleRPK74Vedma: 6
+      STWeaponRifleRPK74Vedma: 12
       STWeaponRifleOC14Liturgia: 9
       # 5.56
-      STWeaponRifleM16: 10
+      STWeaponRifleM4: 10
       # SMGS
       STWeaponSMGPPSh41: 5
       STWeaponSMGMP5: 4
       # 7,62x39
-      STWeaponRifleAKMC: 9 # Worse AKM version for cheaper
+      STWeaponRifleAKM: 12 # Worse AKM version for cheaper
       STWeaponSniperSKS: 3
   - name: shop-category-magazines
     priority: 2
@@ -523,7 +522,9 @@
       # ARMOR
       # outerClothing
       STClothingOuterArmorLightPlateVestBasePSZ7rene: 22
+      # mask
+      ClothingMaskRenegate: 7 # T3
       # head
-      ClothingHeadHelmetVityazSkull3: 36 # this is a vityaz, youre paying a drip tax
+      ClothingHeadHelmetVityazSkull3: 12 # this is a vityaz, youre paying a drip tax
       # misc
       ClothingNeckToothNecklace: 1

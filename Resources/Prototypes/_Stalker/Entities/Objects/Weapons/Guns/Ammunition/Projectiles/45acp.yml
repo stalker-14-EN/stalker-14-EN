@@ -11,7 +11,7 @@
     projectileClass: 1
     damage:
       types:
-        Piercing: 24
+        Piercing: 12
 
 - type: entity
   id: Bullet45ACPMFMJ
@@ -23,7 +23,7 @@
     projectileClass: 2
     damage:
       types:
-        Piercing: 25
+        Piercing: 13
 
 - type: entity
   id: Bullet45ACPHydroshock
@@ -37,7 +37,7 @@
       types:
         Blunt: 10
         Slash: 10
-        Piercing: 30
+        Piercing: 15
         Mutant: 20
 
 - type: entity
@@ -65,4 +65,4 @@
     projectileClass: 3
     damage:
       types:
-        Piercing: 28
+        Piercing: 14

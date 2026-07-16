@@ -132,7 +132,6 @@
   - type: Tag
     tags:
       - BlockMask
-      - BlockHead # Stalker EN Change - blocks the head slot to prevent metagaming
   - type: HideLayerClothing
     slots:
     - Snout
@@ -140,7 +139,7 @@
     armorClass: 3
     modifiers:
       coefficients:
-        Piercing: 0.75 # Stalker EN Change
+        Piercing: 0.80 # Stalker EN Change
         Blunt: 0.80
         Slash: 0.80
 

@@ -12,7 +12,7 @@
     projectileClass: 1
     damage:
       types:
-        Piercing: 20
+        Piercing: 10
   # - type: StaminaDamageOnCollide
     # damage: 1
 
@@ -26,7 +26,7 @@
     projectileClass: 2
     damage:
       types:
-        Piercing: 22
+        Piercing: 11
 
 - type: entity
   id: Bullet725LRNPC
@@ -39,9 +39,9 @@
     damage:
       types:
         Mutant: 35
-        Piercing: 10
-        Blunt: 10
-        Slash: 10
+        Piercing: 5
+        Blunt: 5
+        Slash: 5
 
 - type: entity
   id: Bullet725PSTGJ
@@ -53,4 +53,4 @@
     projectileClass: 3
     damage:
       types:
-        Piercing: 24
+        Piercing: 12

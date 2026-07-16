@@ -148,13 +148,13 @@
   - type: STProjectileAccuracy
     thresholds:
     - range: 5
-      falloff: 0.02
+      falloff: 0
   - type: STProjectileDamageFalloff
     thresholds:
     - range: 8
-      falloff: 0.1       # Very light falloff (was 0.15)
+      falloff: 0       # Very light falloff (was 0.15)
     - range: 35
-      falloff: 0.4       # Gradual drop (was 0.6)
+      falloff: 0       # Gradual drop (was 0.6)
 
 - type: entity
   abstract: true
@@ -165,13 +165,13 @@
   - type: STProjectileAccuracy
     thresholds:
     - range: 5
-      falloff: 0.001
+      falloff: 0
   - type: STProjectileDamageFalloff
     thresholds:
     - range: 10
-      falloff: 0.05      # Minimal falloff
+      falloff: 0      # Minimal falloff
     - range: 50
-      falloff: 0.3       # Long range effectiveness (was 0.5)
+      falloff: 0       # Long range effectiveness (was 0.5)
 
 - type: entity
   abstract: true

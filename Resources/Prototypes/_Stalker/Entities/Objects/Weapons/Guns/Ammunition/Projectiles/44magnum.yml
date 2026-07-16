@@ -9,7 +9,7 @@
     projectileClass: 2
     damage:
       types:
-        Piercing: 30
+        Piercing: 15
   # - type: StaminaDamageOnCollide
     # damage: 10
 
@@ -24,6 +24,6 @@
     projectileClass: 3
     damage:
       types:
-        Piercing: 35
+        Piercing: 17
   # - type: StaminaDamageOnCollide
     # damage: 15

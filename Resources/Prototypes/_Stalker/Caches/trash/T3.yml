@@ -11,19 +11,19 @@
     - type: StorageFill
       contents:
         - id: STCraftMultilayerPCBT3
-          prob: 0.1
+          prob: 0.3
         - id: STCraftSheetBrassT3
-          prob: 0.1
+          prob: 0.3
         - id: STCraftOakPlankT3
-          prob: 0.1
+          prob: 0.3
         - id: STCraftPlasticFittingT3
-          prob: 0.1
+          prob: 0.3
         - id: STCraftQuartzCrystalT3
-          prob: 0.1
+          prob: 0.3
         - id: STCraftSturdyHideT3
-          prob: 0.1
+          prob: 0.3
         - id: STCraftGlueKitT3
-          prob: 0.1
+          prob: 0.3
         - id: STBrutepack
           prob: 0.3
         - id: STBrutepack

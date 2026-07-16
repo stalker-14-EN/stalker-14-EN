@@ -438,54 +438,54 @@
     ZoneArtifactVyvert: 0
     ZoneArtifactFlower: 10
     #T4
-    ZoneArtifactGravi: 30
-    ZoneArtifactNightStar: 30
+    ZoneArtifactGravi: 60
+    ZoneArtifactNightStar: 60
     #T5
-    ZoneArtifactDistorter: 100
-    ZoneArtifactFocus: 100
-    ZoneArtifactGoldfish: 175
-    ZoneArtifactSpring: 100
-    ZoneArtifactStuntman: 100
-    ZoneArtifactDarkCube: 0 # its too scary
+    ZoneArtifactDistorter: 150
+    ZoneArtifactFocus: 150
+    ZoneArtifactGoldfish: 200
+    ZoneArtifactSpring: 150
+    ZoneArtifactStuntman: 150
+    ZoneArtifactDarkCube: -1 # its super dupa scary and evil...
     # ---THERMAL---
     #T3
     ZoneArtifactFlame: 15
-    ZoneArtifactRock: 15
-    ZoneArtifactBunch: 10
+    ZoneArtifactRock: 30
+    ZoneArtifactBunch: 20
     #T4
-    ZoneArtifactCristall: 30
-    ZoneArtifactRoot: 30
-    ZoneArtifactSun: 30
+    ZoneArtifactCristall: 50
+    ZoneArtifactRoot: 50
+    ZoneArtifactSun: 50
     #T5
-    ZoneArtifactLithosphere: 110
+    ZoneArtifactLithosphere: 160
     # ---ELECTRICAL---
     #T3
     ArtMoon: 20
-    ZoneArtifactFlash: 20
+    ZoneArtifactFlash: 30
     ZoneArtifactAccumulator: 15
     #T4
-    ZoneArtifactDiamond: 35
+    ZoneArtifactDiamond: 70
     #T5
-    ZoneArtifactIce: 80
-    ZoneArtifactTesla: 80
+    ZoneArtifactIce: 120
+    ZoneArtifactTesla: 120
     # ---SPATIAL---
     #T1
     ZoneArtifactFloodlight: 1
     #T3
-    ZoneArtifactArf: 15
-    ZoneArtifactThorn: 20
+    ZoneArtifactArf: 20
+    ZoneArtifactThorn: 30
     #T4
-    ZoneArtifactAtom: 35
-    ZoneArtifactCompass: 45 # more valuable to forester specifically
+    ZoneArtifactAtom: 50
+    ZoneArtifactCompass: 100 # more valuable to forester specifically
     #T5
-    ZoneArtifactSoul: 80
-    ZoneArtifactCrucifix: 80
+    ZoneArtifactSoul: 160
+    ZoneArtifactCrucifix: 160
     # ---ACIDIC---
     #T3
-    ZoneArtifactMeat: 20
+    ZoneArtifactMeat: 40
     #T4
-    ZoneArtifactBaloon: 35
-    ZoneArtifactKolobok: 35
+    ZoneArtifactBaloon: 70
+    ZoneArtifactKolobok: 75
     # Mutant parts
     # Boar
     MutantPartBoarHoof: 0 # T1
@@ -502,22 +502,22 @@
     FoodMeatSpiderLeg: 0
     MutantPartCatGland: 0
     #T2 -------- Health * 1.8
-    MutantPartLeshiyRoot: 8
+    MutantPartLeshiyRoot: 16
     MutantPartPseudodogTail: 0
     MutantPartSnorkFoot: 0
-    MutantPartPsiDogTail: 10
+    MutantPartPsiDogTail: 20
     MutantPartFrogLeg: 0
     #T3+ -------- Health * 3
-    MutantPartBloodsuckerTentacles: 25
-    MutantPartOraculeEye: 30
-    MutantPartPseudogiantHeart: 320
+    MutantPartBloodsuckerTentacles: 40
+    MutantPartOraculeEye: 60
+    MutantPartPseudogiantHeart: 1000
     MutantPartZombieHand: 0
-    MutantPartBloodsuckerHead: 80
-    ClothingMaskChimera: 50
-    MutantPartChimeraTooth: 100
-    MutantPartIzlomArm: 35
-    MutantPartBurerBrain: 5
-    MutantPartControllerBrain: 10
+    MutantPartBloodsuckerHead: 160
+    ClothingMaskChimera: 100
+    MutantPartChimeraTooth: 200
+    MutantPartIzlomArm: 70
+    MutantPartBurerBrain: 10
+    MutantPartControllerBrain: 20
 
   categories:
   - name: shop-category-weapons

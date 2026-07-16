@@ -43,8 +43,8 @@
       - type: TeethPull
         teethProto: ToothStalker
         pullingItemTag: PliersStalker
-        teethCount: 3
-        initialTeeth: 3
+        teethCount: 6
+        initialTeeth: 6
       - type: Vocal
         sounds:
           Male: MaleHumanLoner

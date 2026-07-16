@@ -9,7 +9,7 @@
   - name: shop-category-weapons
     priority: 1
     items:
-      STWeaponRifleG36: 185
+      STWeaponRifleSCARH:
 #  - name: shop-category-magazines
 #    priority: 2
 #    items:
