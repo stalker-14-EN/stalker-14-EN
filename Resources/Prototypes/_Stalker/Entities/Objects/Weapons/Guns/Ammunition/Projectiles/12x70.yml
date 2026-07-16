@@ -22,7 +22,7 @@
     damage:
       types:
         Piercing: 9
-        Mutant: 4
+        Mutant: 6 # EN
 
 - type: entity
   id: Bullet7mmBuckshot
@@ -47,7 +47,7 @@
     damage:
       types:
         Piercing: 14
-        Mutant: 8
+        Mutant: 10 # EN
 
 - type: entity
   id: Bullet6mmBuckshot

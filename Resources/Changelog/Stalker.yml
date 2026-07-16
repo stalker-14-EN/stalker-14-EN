@@ -3584,5 +3584,16 @@
   id: 403
   time: '2026-07-12T03:51:22.879636+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1030
+- author: dallaszzz
+  changes:
+  - message: changed the binoc use time
+    type: Tweak
+  - message: makes chairs unpullable
+    type: Fix
+  - message: changes some damage stats
+    type: Tweak
+  id: 404
+  time: '2026-07-16T05:49:25.446700+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1031
 Name: Stalker
 Order: -1

@@ -1,5 +1,5 @@
 - type: entity
-  parent: STBaseLRBullet
+  parent: STBaseBullet # EN
   id: BulletRemingtonMagnum
   name: bullet (.44 remington magnum)
   suffix: Stalker
@@ -10,6 +10,7 @@
     damage:
       types:
         Piercing: 30
+        Mutant: 35 # EN
   # - type: StaminaDamageOnCollide
     # damage: 10
 
@@ -25,5 +26,6 @@
     damage:
       types:
         Piercing: 35
+        Mutant: 20 # EN
   # - type: StaminaDamageOnCollide
     # damage: 15

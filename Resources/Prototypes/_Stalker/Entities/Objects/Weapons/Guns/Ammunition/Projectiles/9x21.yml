@@ -3,7 +3,7 @@
 - type: entity
   id: Bullet921PGJ
   name: bullet (9x21 auto)
-  parent: STBasePistolBullet
+  parent: STBaseBullet # EN
   categories: [ HideSpawnMenu ]
   components:
   - type: TimedDespawn

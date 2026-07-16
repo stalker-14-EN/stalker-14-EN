@@ -2,7 +2,7 @@
 - type: entity
   id: Bullet45ACPLFMJ
   name: bullet (.45 ACP Lasermatch FMJ)
-  parent: STBase45ACP
+  parent: STBaseBullet # EN
   categories: [ HideSpawnMenu ]
   components:
   - type: TimedDespawn

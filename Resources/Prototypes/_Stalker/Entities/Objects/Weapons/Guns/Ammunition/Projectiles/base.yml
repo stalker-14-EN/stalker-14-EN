@@ -37,16 +37,16 @@
       path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
   - type: TimedDespawn
     lifetime: 10
-  - type: STProjectileAccuracy
-    thresholds:
-    - range: 1
-      falloff: 0.03
-  - type: STProjectileDamageFalloff
-    thresholds:
-    - range: 4
-      falloff: 0.15      # Gentle base falloff
-    - range: 20
-      falloff: 0.6       # Moderate drop
+  #- type: STProjectileAccuracy # EN start
+  #  thresholds:
+  #  - range: 1
+  #    falloff: 0.03
+  #- type: STProjectileDamageFalloff
+  #  thresholds:
+  #  - range: 4
+  #    falloff: 0.15      # Gentle base falloff
+  #  - range: 20
+  #    falloff: 0.6       # Moderate drop # EN end
   - type: LagCompensation
 
 - type: entity
