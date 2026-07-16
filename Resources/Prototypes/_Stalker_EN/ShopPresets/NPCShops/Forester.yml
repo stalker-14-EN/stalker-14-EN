@@ -158,7 +158,7 @@
         # 7.39
         739HPBox: 450 # Mutant
         # 7.54
-        754HPBox: 600 # Mutant
+        754HPBox: 1000 # Mutant
         # 9.18
         918PGJBox: 80 # T1
         918PSTBox: 150 # T2
@@ -366,8 +366,8 @@
       6mmBuckshotBoxCink: 40 # Express
       8mmBuckshotBoxCink: 50 # Magnum
       # 7.62x54
-      754HPBox: 4 # mutant
-      754FMJBox: 10 # T3
+      754HPBox: 10 # mutant
+      754FMJBox: 25 # T3
       # 9x39
       STBox9x39SP5: 20 # T2
       STBox9x39PAB9: 30 # T3
@@ -529,14 +529,16 @@
       STWeaponShotgunSaiga12: 225
       # Pistols
       WeaponPistolStalkerLP08: 90
+      STWeaponRevolverRH12: 500
       # SMGs
       # Rifles
       STWeaponRifleM14: 125
       STWeaponRifleStalkerAek971: 225
-      # Snipers
+      # Sniper  s
       STWeaponSniperVepr: 200
       STWeaponSniperSVDS: 425
       STWeaponSniperVSS: 500
+      STBaseWeaponRifleOSV96: 600
   - name: shop-category-magazines
     priority: 2
     items:
@@ -555,6 +557,10 @@
       # 9x39
       Base939Mag10: 10
       939Mag20: 25
+      # 13x180
+      13x108Mag10: 50
+      13x108HPBox: 100
+      13x108FMJBox: 150
   - name: shop-category-ammunition
     priority: 3
     items:
@@ -565,8 +571,8 @@
       545HPBoxCink: 35 # mutant
       545PCBoxCink: 45 # T3
       # 7.62x54
-      754HPBox: 4 # mutant
-      754FMJBox: 10 # T3
+      754HPBox: 10 # mutant
+      754FMJBox: 25 # T3
       # 9x19
       919PBMBoxCink: 45 # T3
       # 9x39

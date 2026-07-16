@@ -261,9 +261,9 @@
         45ACPRIPBox: 625
         45ACPAPBox: 1400
         # .357
-        MagazineBox357Magnum: 350 # T2
-        MagazineBox357MagnumAP: 1600 # T3
-        MagazineBox357MagnumHP: 600 # Mutant
+        MagazineBox357Magnum: 1000 # T2
+        MagazineBox357MagnumAP: 3000 # T3
+        MagazineBox357MagnumHP: 1500 # Mutant
 
     - name: shop-category-armor
       priority: 4

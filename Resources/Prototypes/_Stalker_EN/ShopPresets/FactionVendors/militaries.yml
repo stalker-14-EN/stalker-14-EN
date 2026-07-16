@@ -157,11 +157,11 @@
       739FMJBox: 640
       739HPBox: 835
       # 7.54
-      754FMJBox: 675
-      754HPBox: 1015
+      754FMJBox: 2500
+      754HPBox: 2000
       # .357
-      MagazineBox357Magnum: 260 # T2
-      MagazineBox357MagnumAP: 500 # T3
+      MagazineBox357Magnum: 750 # T2
+      MagazineBox357MagnumAP: 1500 # T3
 
   - name: shop-category-armor
     priority: 4

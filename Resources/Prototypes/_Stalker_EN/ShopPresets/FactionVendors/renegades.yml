@@ -190,17 +190,17 @@
       739HPBox: 850 # Mutant
       739FMJBox: 1000 # T3
       # 7.54
-      754FMJBox: 1150 # T3
-      754HPBox: 850 # Mutant
+      754FMJBox: 2500 # T3
+      754HPBox: 1725 # Mutant
       # .45
       45ACPLFMJBox: 100 # T1
       45ACPMFMJBox: 300 # T2
       45ACPRIPBox: 625 # Mutant
       45ACPAPBox: 800 # T3
       # .357
-      MagazineBox357Magnum: 400 # T2
-      MagazineBox357MagnumAP: 800 # T3
-      MagazineBox357MagnumHP: 625 # Mutant
+      MagazineBox357Magnum: 1000 # T2
+      MagazineBox357MagnumAP: 2500 # T3
+      MagazineBox357MagnumHP: 1750 # Mutant
 
   - name: shop-category-medicine
     priority: 4
@@ -509,7 +509,7 @@
       # 7.39
       739FMJBox: 2 # T3
       # 7.54
-      754FMJBox: 2 # T3
+      754FMJBox: 5 # T3
       # .45
       45ACPAPBox: 2 # T3
   - name: shop-category-medicine

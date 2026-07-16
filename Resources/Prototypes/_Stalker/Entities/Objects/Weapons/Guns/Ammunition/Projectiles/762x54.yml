@@ -27,6 +27,7 @@
     damage:
       types:
         Piercing: 57
+    ignoreResistances: true
   # - type: StaminaDamageOnCollide
     # damage: 10
 
@@ -41,6 +42,7 @@
     damage:
       types:
         Piercing: 59
+    ignoreResistances: true
   # - type: StaminaDamageOnCollide
     # damage: 10
 
@@ -55,6 +57,7 @@
     damage:
       types:
         Piercing: 62
+    ignoreResistances: true
   # - type: StaminaDamageOnCollide
     # damage: 10
 
@@ -69,5 +72,6 @@
     damage:
       types:
         Piercing: 65
+    ignoreResistances: true
   # - type: StaminaDamageOnCollide
     # damage: 10

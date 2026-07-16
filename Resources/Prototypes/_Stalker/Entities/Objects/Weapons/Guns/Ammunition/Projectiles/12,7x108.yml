@@ -25,7 +25,8 @@
     projectileClass: 4
     damage:
       types:
-        Piercing: 114
+        Piercing: 90
+    ignoreResistances: true
   # - type: StaminaDamageOnCollide
     # damage: 20
 
