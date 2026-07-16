@@ -89,7 +89,7 @@
     spawned:
       - id: MutantPartZombieHand
         maxAmount: 1
-        prob: 0.5
+        prob: 0.67 #haha funny
   # Stalker-EN start
   - type: EmitSoundOnTrigger
     sound:

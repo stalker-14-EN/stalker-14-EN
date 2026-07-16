@@ -19,11 +19,11 @@
       butcherDelay: 1
       spawned:
         - id: FoodMeatSpiderLeg
-          amount: 1
-          prob: 0.25
+          maxAmount: 8
+          prob: 1.00
         - id: STFoodMeatSpider
           maxAmount: 1
-          prob: 0.25
+          prob: 1.00
     - type: DamageStateVisuals
       states:
         Alive:

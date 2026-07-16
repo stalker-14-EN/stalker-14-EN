@@ -43,7 +43,7 @@
       - id: MutantPartBearClaw
         amount: 1
       - id: FoodMeatSTBear
-        amount: 1
+        maxAmount: 4
     - type: MeleeWeapon
       attackRate: 0.6
       angle: 30

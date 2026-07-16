@@ -18,10 +18,10 @@
       spawned:
         - id: MutantPartBlindDogTail
           amount: 1
-          prob: 0.7
+          prob: 1.0
         - id: FoodMeatDog
           maxAmount: 1
-          prob: 0.7
+          prob: 1.0
         - id: STJunkTag # EN
           maxAmount: 1
           prob: 0.02
@@ -96,10 +96,10 @@
       spawned:
         - id: MutantPartBlindDogTail
           amount: 1
-          prob: 0.9
+          prob: 1.0
         - id: FoodMeatDog
           maxAmount: 1
-          prob: 0.7
+          prob: 1.0
         - id: STJunkTag # EN
           maxAmount: 1
           prob: 0.02
@@ -202,7 +202,7 @@
       spawned:
         - id: MutantPartBlindDogTail
           amount: 1
-          prob: 0.9
+          prob: 1.0
         - id: FoodMeatDog
           maxAmount: 2
           prob: 0.7
@@ -308,10 +308,10 @@
       spawned:
         - id: MutantPartBlindDogTail
           amount: 1
-          prob: 0.9
+          prob: 1.0
         - id: FoodMeatDog
           maxAmount: 3
-          prob: 0.7
+          prob: 1.0
         - id: STJunkTag # EN
           maxAmount: 1
           prob: 0.02
@@ -398,10 +398,10 @@
       spawned:
         - id: MutantPartBlindDogTail
           amount: 1
-          prob: 0.9
+          prob: 1.0
         - id: FoodMeatDog
           maxAmount: 10
-          prob: 0.7
+          prob: 1.0
         - id: STJunkTag # EN
           maxAmount: 1
           prob: 0.02

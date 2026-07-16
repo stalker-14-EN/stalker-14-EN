@@ -19,6 +19,9 @@
       spawned:
         - id: MutantPartPseudodogTail
           amount: 1
+        - id: FoodMeatDog
+          maxAmount: 1
+          prob: 1.0
         - id: STJunkTag # EN
           maxAmount: 1
           prob: 0.05

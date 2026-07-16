@@ -49,7 +49,7 @@
       maxAmount: 1
       prob: 0.3
     - id: FoodMeatSTBear
-      maxAmount: 1
+      maxAmount: 4
     - id: MutantPartBearEye
       amount: 1
     - id: STJunkTag

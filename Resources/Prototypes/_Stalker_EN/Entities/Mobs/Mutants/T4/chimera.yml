@@ -38,12 +38,9 @@
     spawned:
     - id: ClothingMaskChimera
       maxAmount: 1
-      prob: 0.3
-  - type: TeethPull
-    teethProto: MutantPartChimeraTooth
-    pullingItemTag: PliersStalker
-    teethCount: 2
-    initialTeeth: 2
+      prob: 1.0
+    - id: MutantPartChimeraTooth
+      amount: 2
   - type: STWeight
     self: 50
   - type: MovementSpeedModifier

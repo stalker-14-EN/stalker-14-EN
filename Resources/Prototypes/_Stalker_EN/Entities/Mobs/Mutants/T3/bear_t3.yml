@@ -42,12 +42,12 @@
     spawned:
     - id: MutantPartBearClaw
       maxAmount: 4
-      prob: 0.5
+      prob: 1.0
     - id: MutantPartBearPaw
       maxAmount: 2
-      prob: 0.5
+      prob: 1.0
     - id: FoodMeatSTBear
-      maxAmount: 3
+      maxAmount: 4
     - id: ClothingHeadBear
       maxAmount: 1
       prob: 0.05
