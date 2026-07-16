@@ -382,7 +382,6 @@
     damage:
       types:
         Compression: -2
-        Piercing: 0.08 # we're so back
     ignoreResistances: true # EN
   - type: Armor
     hiddenExamine: true
@@ -393,6 +392,8 @@
         Heat: 0.3
         Psy: 0.5
         Shock: 1.2
+      flatReductions:
+        Compression: 3
   - type: Tag
     tags:
     - Khabar
