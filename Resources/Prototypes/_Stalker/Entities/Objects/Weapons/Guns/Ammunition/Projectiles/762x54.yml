@@ -9,7 +9,7 @@
     projectileClass: 0
     damage:
       types:
-        Mutant: 180
+        Mutant: 360
         Piercing: 10
         Blunt: 10
         Slash: 10
@@ -27,7 +27,7 @@
     damage:
       types:
         Piercing: 57
-        Mutant: 57 # EN
+    ignoreResistances: true
   # - type: StaminaDamageOnCollide
     # damage: 10
 
@@ -42,6 +42,7 @@
     damage:
       types:
         Piercing: 59
+    ignoreResistances: true
   # - type: StaminaDamageOnCollide
     # damage: 10
 
@@ -56,6 +57,7 @@
     damage:
       types:
         Piercing: 62
+    ignoreResistances: true
   # - type: StaminaDamageOnCollide
     # damage: 10
 
@@ -70,5 +72,6 @@
     damage:
       types:
         Piercing: 65
+    ignoreResistances: true
   # - type: StaminaDamageOnCollide
     # damage: 10

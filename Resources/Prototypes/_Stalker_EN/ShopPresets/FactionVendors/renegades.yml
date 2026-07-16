@@ -3,7 +3,7 @@
   minSellPrice: 5
   itemsForSale:
     # Exclusive -
-    ToothStalker: 450
+    ToothStalker: 900
     TradeBox: 2000
 
     # Thermal group - 1
@@ -190,17 +190,17 @@
       739HPBox: 850 # Mutant
       739FMJBox: 1000 # T3
       # 7.54
-      754FMJBox: 1150 # T3
-      754HPBox: 850 # Mutant
+      754FMJBox: 2500 # T3
+      754HPBox: 1725 # Mutant
       # .45
       45ACPLFMJBox: 100 # T1
       45ACPMFMJBox: 300 # T2
       45ACPRIPBox: 625 # Mutant
       45ACPAPBox: 800 # T3
       # .357
-      MagazineBox357Magnum: 400 # T2
-      MagazineBox357MagnumAP: 800 # T3
-      MagazineBox357MagnumHP: 625 # Mutant
+      MagazineBox357Magnum: 1000 # T2
+      MagazineBox357MagnumAP: 2500 # T3
+      MagazineBox357MagnumHP: 1750 # Mutant
 
   - name: shop-category-medicine
     priority: 4
@@ -243,7 +243,6 @@
       ClothingHeadInfantryHelmetRenegate: 600 # T2 - PVP
       ClothingHeadHelmetVityaz1L: 3000 # T3 - PVE
       ClothingHeadAssaultHelmet: 3500 # T3 - PVP
-      ClothingMaskRenegate: 3000 # T3
       # OuterClothing #
       ClothingJaketRealHuman: 60 # T1 - PVE
       STClothingOuterArmorLightPlateVestBaseRenegate: 1000 # T2 - PvP
@@ -479,15 +478,15 @@
       # 5,45x39
       STWeaponRifleAKS74U: 3
       STWeaponRifleAKS74: 6
-      STWeaponRifleRPK74Vedma: 6
+      STWeaponRifleRPK74Vedma: 12
       STWeaponRifleOC14Liturgia: 9
       # 5.56
-      STWeaponRifleM16: 10
+      STWeaponRifleM4: 10
       # SMGS
       STWeaponSMGPPSh41: 5
       STWeaponSMGMP5: 4
       # 7,62x39
-      STWeaponRifleAKMC: 9 # Worse AKM version for cheaper
+      STWeaponRifleAKM: 12 # Worse AKM version for cheaper
       STWeaponSniperSKS: 3
   - name: shop-category-magazines
     priority: 2
@@ -510,7 +509,7 @@
       # 7.39
       739FMJBox: 2 # T3
       # 7.54
-      754FMJBox: 2 # T3
+      754FMJBox: 5 # T3
       # .45
       45ACPAPBox: 2 # T3
   - name: shop-category-medicine
@@ -523,7 +522,9 @@
       # ARMOR
       # outerClothing
       STClothingOuterArmorLightPlateVestBasePSZ7rene: 22
+      # mask
+      ClothingMaskRenegate: 7 # T3
       # head
-      ClothingHeadHelmetVityazSkull3: 36 # this is a vityaz, youre paying a drip tax
+      ClothingHeadHelmetVityazSkull3: 12 # this is a vityaz, youre paying a drip tax
       # misc
       ClothingNeckToothNecklace: 1

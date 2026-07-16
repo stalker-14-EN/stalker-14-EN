@@ -23,6 +23,8 @@
         tags:
           - Monolith
       - type: Bands
+        altBand: stalker
+        canChange: true
         band: Stalker
         bandIcon: monolith
         bandProto: STMonolithBand
@@ -91,6 +93,8 @@
       tags:
       - Monolith
     - type: Bands
+      altBand: stalker
+      canChange: true
       band: Stalker
       bandIcon: monolith
       bandProto: STMonolithBand

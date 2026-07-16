@@ -128607,15 +128607,6 @@ entities:
     - type: Transform
       pos: 246.5,-101.5
       parent: 1
-- proto: NPCForesterRedForestEN
-  entities:
-  - uid: 22069
-    components:
-    - type: Transform
-      pos: 87.5,97.5
-      parent: 1
-    missingComponents:
-    - TimedDespawn
 - proto: NPCIgorIvanovichMonolith
   entities:
   - uid: 519

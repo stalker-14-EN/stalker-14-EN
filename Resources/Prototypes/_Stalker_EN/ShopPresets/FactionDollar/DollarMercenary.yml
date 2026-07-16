@@ -9,7 +9,8 @@
   - name: shop-category-weapons
     priority: 1
     items:
-      STWeaponRifleG36: 185
+      STWeaponRifleSCARH: 200
+      STWeaponPistolDesertEagleGolden: 100 # swagger
 #  - name: shop-category-magazines
 #    priority: 2
 #    items:

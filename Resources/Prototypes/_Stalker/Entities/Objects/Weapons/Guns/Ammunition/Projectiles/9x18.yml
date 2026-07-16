@@ -12,7 +12,7 @@
     projectileClass: 1
     damage:
       types:
-        Piercing: 22
+        Piercing: 11
   # - type: StaminaDamageOnCollide
     # damage: 1
 
@@ -26,7 +26,7 @@
     projectileClass: 2
     damage:
       types:
-        Piercing: 25
+        Piercing: 12
 
 - type: entity
   id: Bullet918SP7
@@ -53,7 +53,7 @@
     projectileClass: 3
     damage:
       types:
-        Piercing: 25
+        Piercing: 12
 
 # Anomaly
 

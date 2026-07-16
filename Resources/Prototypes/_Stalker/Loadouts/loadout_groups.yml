@@ -185,7 +185,6 @@
   maxLimit: 2
   loadouts:
   - STLighter
-  - Blunt
   - CigPackBub
 
 - type: loadoutGroup

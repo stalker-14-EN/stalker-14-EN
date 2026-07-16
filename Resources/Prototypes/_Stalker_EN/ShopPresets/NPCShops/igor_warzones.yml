@@ -67,3 +67,5 @@
     price: 100
   - productEntity: STLostToy
     price: 500
+  - productEntity: CasetsConBag
+    price: 100

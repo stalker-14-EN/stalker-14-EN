@@ -12,9 +12,9 @@
     MonolithCrateMedkit: 10
     STWeaponRifleAKM: 10
     STWeaponRifleAKS74WinterMono: 10
-    #STWeaponRifleAKS74UWhiteMono: 10
-    #STWeaponRifleLR300v1: 10
-    STWeaponRifleOC14WinterMono: 10
+    STWeaponSniperMosin: 10
+    STWeaponRifleAKS74UWhiteMono: 10
+    STWeaponRifleLR300v1: 10
     MonolithCrate545Mag30: 10
     MonolithCrate545PC: 10
     MonolithCrate556Mag30: 10
@@ -120,16 +120,15 @@
   - name: shop-category-weapons
     priority: 1
     items:
-      STWeaponRifleG36Mono: 30
+      STWeaponRifleG36Mono: 40
       STWeaponRifleStalkerAK12Mono: 20
       STWeaponSMGStalkerCP2Veresk: 8
-      STWeaponRifleAK103Mono: 24 # higher because its technically a faction weapon
-      STWeaponRifleStalkerAbakanWinterMono: 32
+      STWeaponRifleStalkerAbakanWinterMono: 50
       STWeaponShotgunProtecta: 10
       STSharpenedKnife: 1
       STKnifeShard: 85 # munny sink
       WeaponPistolGSH18: 1
-      STWeaponSniperMosin: 10
+      STWeaponRifleOC14WinterMono: 5
       STWeaponSniperSVDMono: 85
 
   - name: shop-category-magazines

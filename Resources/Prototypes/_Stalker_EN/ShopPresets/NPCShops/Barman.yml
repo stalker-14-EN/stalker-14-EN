@@ -277,9 +277,9 @@
         751UNBox: 500 # Mutant
         754HPBox: 650 # Mutant
         # .357
-        MagazineBox357Magnum: 400 # T2
-        MagazineBox357MagnumAP: 1000 # T3
-        MagazineBox357MagnumHP: 500 # Mutant
+        MagazineBox357Magnum: 1000 # T2
+        MagazineBox357MagnumAP: 2500 # T3
+        MagazineBox357MagnumHP: 1500 # Mutant
 
     - name: shop-category-medicine
       priority: 4
