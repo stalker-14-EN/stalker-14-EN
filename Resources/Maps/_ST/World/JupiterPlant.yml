@@ -53637,7 +53637,7 @@ entities:
     - type: Transform
       pos: 114.5,-119.5
       parent: 2
-- proto: STTriggerBloodSucker121010
+- proto: STTriggerChimera110030
   entities:
   - uid: 8504
     components:
